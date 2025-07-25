@@ -1,26 +1,58 @@
 # Interview Methodology
 
-This folder documents how GPT-based personas were used to simulate user interviews for early-stage design research.
+This document outlines the methodology used to simulate user interviews through GPT-based personas during the early stages of app design. The goal was to gather realistic insights into the needs, behaviors, and expectations of memory-impaired individuals and their caregivers.
 
 ## Purpose
 
-Real interviews with memory-impaired individuals can be difficult due to recruitment challenges, ethical concerns, and communication barriers. To address this, simulated personas were used to explore user needs and preferences without involving real participants. This also allowed for early testing of how large language models can support user research in hard-to-reach contexts.
+Conducting real interviews with memory-impaired individuals presents difficulties such as recruitment constraints, ethical concerns, and communication barriers. To mitigate these challenges, simulated interviews were conducted using large language models. These interviews provided early insights into user needs and supported iterative design decisions when direct access to target users was limited.
 
-## Interview Design
+## Tools and Setup
 
-Each persona answered a tailored questionnaire written to reflect realistic experiences. There were two sets of questions: one for care receivers and one for caregivers. Topics included:
+- **Language Model:** ChatGPT (GPT-4) was used to simulate persona dialogues.
+- **Prompt Design:** Each interview began with a carefully structured persona prompt, containing:
 
-- Daily tasks and challenges
-- Memory issues and coping strategies
-- Technology habits and comfort levels
-- Reactions to a reminder or support app
-- Preferences for how help is offered
+  - Background: age, memory condition, tech familiarity, living situation
+  - Daily routines, emotional tone, and caregiving context
 
-Interviews were conducted in multi-turn dialogue with each persona. Answers were reviewed to check for coherence with persona profiles and to gather design insights.
+- **Questionnaires:** Two sets of questionnaires were created: one for care receivers and one for caregivers.
+- **Interaction Style:** A multi-turn think-aloud style was used, where GPT responded as if it were the persona being interviewed.
+- **Review Process:** Responses were manually reviewed to ensure alignment with persona traits and to identify insights relevant to app design.
 
-## Analysis
+## Interview Process
 
-Responses were manually reviewed to identify common patterns, unmet needs, and potential feature ideas. The focus was on understanding how memory support apps could fit into real caregiving situations. Key findings were later summarized to guide design.
+1. **Persona Initialization**
+   - Select one of the eight predefined personas.
+   - Load the full background and constraints into the GPT system prompt.
+2. **Interview Execution**
+   - Use one of the two questionnaire sets.
+   - Proceed through each question one by one in natural dialogue form.
+   - Allow the persona to elaborate where appropriate.
+3. **Answer Logging**
+   - Save all responses in markdown format.
+   - Each persona session was saved as a separate file for later analysis.
+4. **Result Verification**
+   - Check for consistency between answers and persona profiles.
+   - Note moments of hesitation, contradiction, or particularly insightful comments.
+5. **Insight Extraction**
+   - After completing interviews, responses were coded and categorized.
+   - Recurring themes, needs, frustrations, and feature suggestions were summarized.
+
+## Analysis Process
+
+Interview transcripts were analyzed manually to identify:
+
+- Common needs shared across personas
+- Pain points in memory management or caregiving
+- Preferred modes of interaction (voice vs. touch)
+- App features viewed as essential or confusing
+
+Insights from this analysis were summarized in structured tables and used to inform:
+
+- Initial wireframes and UI design
+- Feature prioritization
+- Task scenarios for prototype evaluation
+
+For complete transcripts and extracted insights, see the `user_interviews/` folder and `interview_summary.md`.
 
 ## Full Interview Questionnaires
 

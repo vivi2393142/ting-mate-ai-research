@@ -4,30 +4,18 @@ This document describes the methodology used to evaluate the app using GPT-based
 
 ## Purpose
 
-Conducting real usability tests with memory-impaired individuals presents challenges, including safety, accessibility, and recruitment limitations. To address this, GPT-based personas were employed to simulate the behavior of typical users, including both memory-impaired individuals and their caregivers. This evaluation phase focused on how these personas interacted with the functional prototype, in contrast to earlier interviews which were used to explore needs and expectations.
+Conducting real usability tests with memory-impaired individuals presents challenges related to safety, accessibility, and recruitment. To address these constraints, GPT-based personas were used to simulate typical users—both memory-impaired individuals and their caregivers. This evaluation phase focused on how these personas interacted with the functional prototype through a simulated Think Aloud test, in contrast to earlier interviews which aimed to explore user needs and expectations.
 
 ## Tools and Setup
 
 The evaluation environment was configured as follows:
 
-- The AI agent was **Claude Sonnet 4**.
-- Claude was connected to the iOS Simulator using the [iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp) (Model Context Protocol).
-- MCP internally used [Facebook’s IDB](https://fbidb.io/) tool to send simulator commands such as tapping, typing, and navigation.
-- A local server managed communication between Claude, the MCP service, and the app.
+- **Language Model:** Claude Sonnet 4 was used to simulate persona dialogues which support MCP connection better.
+- **iOS Simulator MCP**: Claude was connected to the iOS Simulator using the [iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp) (Model Context Protocol).
+- **Facebook's IDB**: MCP internally used [Facebook’s IDB](https://fbidb.io/) tool to send simulator commands such as tapping, typing, and navigation.
+- **Local Server**: A local server managed communication between Claude, the MCP service, and the app.
 
 This setup allowed Claude to interact with the app through natural language instructions. Claude described the user's thoughts and intended actions aloud. These were translated into simulator events via MCP.
-
-## Persona Configuration
-
-The same structured personas used during the interview phase were reused here. Each evaluation session began with a new prompt, without memory of previous interactions. This approach simulated a true first-time user experience.
-
-Each persona included:
-
-- Background: age, habits, digital literacy, relationship status
-- Goals: memory support needs or caregiving responsibilities
-- Behavior: likely usage patterns, preferences (e.g. voice interaction)
-
-See the [personas_design](process_design.md) for detailed definitions of each GPT persona pair.
 
 ## Evaluation Process
 
@@ -36,7 +24,6 @@ See the [personas_design](process_design.md) for detailed definitions of each GP
 Before each session:
 
 - The simulator was reset and the app was relaunched.
-- Claude sessions were started fresh to prevent memory leakage.
 - A specific persona from the predefined set was selected.
 - Where needed, test data (e.g. accounts, linked devices) was preconfigured to reflect each scenario.
 
@@ -46,20 +33,13 @@ Each test followed these steps:
 
 1. **Prompt Configuration**  
    Claude was initialized with the persona prompt and instructed to think aloud and act as the persona.
-
 2. **Task Instructions**  
    Claude received a task prompt (if applicable) and was shown the app screen. It described what it saw, what it understood, and what it planned to do.
-
 3. **Action Execution**  
    Based on Claude’s response (e.g., "I would tap the Add Reminder button"), the local server translated the action into simulator input via MCP.
-
-4. **Screen Progression**  
-   The app advanced to the next screen or state based on the user action.
-
-5. **Observation and Logging**  
+4. **Observation and Logging**  
    Each session was logged, including all screen outputs, user comments, and GPT decisions. Screenshots were recorded at key points.
-
-6. **Post-Task Reflection**  
+5. **Post-Task Reflection**  
    Claude answered structured reflection questions to simulate user feedback.
 
 ### Observation Criteria
@@ -70,7 +50,23 @@ During each session, the following aspects were evaluated:
 - Hesitation or confusion during navigation
 - Comments indicating satisfaction, frustration, or misunderstanding
 
-## Task Design
+## Analysis Process
+
+Evaluation logs were analyzed to determine:
+
+- Whether the app flow was intuitive
+- Which tasks caused confusion or failure
+- Alignment between persona expectations and app behavior
+- Emergent feedback or requests for improvement
+- Findings were summarized to guide further iteration.
+
+## Limitations
+
+While this method provides early feedback, it does not fully replicate real human behavior. AI agents do not experience physical or emotional responses such as frustration, fatigue, or accessibility challenges. However, it offers valuable insight into design clarity, task flow logic, and potential error cases, particularly when access to real users is limited.
+
+For detailed results, see [evaluation_summary.md](./evaluation_summary.md) and the `analysis/` directory.
+
+## Full Tasks Designed for Testers
 
 Tasks were based on realistic first-time usage scenarios. Each persona followed a tailored sequence of tasks, as outlined below.
 
@@ -115,7 +111,7 @@ Tasks were based on realistic first-time usage scenarios. Each persona followed 
 
 **Objective:** Evaluate shared task flow and collaborative features between caregiver and carereceiver.
 
-#### Prior to evaluation:
+**Prior to evaluation:**
 
 1. Accounts for both caregiver and carereceiver were pre-created and linked.
 2. A note titled "Where things are" was added to the carereceiver’s account, containing:
@@ -146,18 +142,3 @@ Tasks were based on realistic first-time usage scenarios. Each persona followed 
 
 - _Carereceiver:_ Was the reminder helpful or intrusive? Did you feel in control?
 - _Caregiver:_ Would you use this feature regularly? Do you foresee any issues?
-
-## Differences from Interviews
-
-| Aspect | Interviews                     | Evaluations                          |
-| ------ | ------------------------------ | ------------------------------------ |
-| Focus  | Understanding needs            | Testing actual interactions          |
-| Tool   | ChatGPT                        | Claude Sonnet 4                      |
-| Memory | Ongoing session memory         | Clean, stateless runs                |
-| Output | Requirements and feature ideas | Usability insights and behavior logs |
-
-## Limitations
-
-While this method provides early feedback, it does not fully replicate real human behavior. AI agents do not experience physical or emotional responses such as frustration, fatigue, or accessibility challenges. However, it offers valuable insight into design clarity, task flow logic, and potential error cases, particularly when access to real users is limited.
-
-For detailed results, see [evaluation_summary.md](./evaluation_summary.md) and the `analysis/` directory.
