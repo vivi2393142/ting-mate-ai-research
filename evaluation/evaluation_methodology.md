@@ -50,6 +50,10 @@ During each session, the following aspects were evaluated:
 - Hesitation or confusion during navigation
 - Comments indicating satisfaction, frustration, or misunderstanding
 
+## Prompt
+
+<!-- TODO: add prompt example -->
+
 ## Analysis Process
 
 Evaluation logs were analyzed to determine:

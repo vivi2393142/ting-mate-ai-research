@@ -21,6 +21,12 @@ The personas varied by:
 - Relationship to the caregiver (spouse, child, in-law)
 - Comfort with mobile technology
 
+## Prompt for Creating Persona
+
+Prompts were given in pairs rather than individually, in order to provide a fuller and more detailed background, making each persona feel more concrete and realistic. The prompt also specified which role each persona was playing.
+
+<!-- TODO: add prompt example -->
+
 ## Persona Summary Table
 
 | Pair Name | Role                                       | Age | Keywords                                                                                      | Source       |

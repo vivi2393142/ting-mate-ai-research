@@ -21,7 +21,7 @@ Conducting real interviews with memory-impaired individuals presents difficultie
 ## Interview Process
 
 1. **Persona Initialization**
-   - Select one of the eight predefined personas.
+   - Select one of the eight predefined persona.
    - Load the full background and constraints into the GPT system prompt.
 2. **Interview Execution**
    - Use one of the two questionnaire sets.
@@ -36,6 +36,10 @@ Conducting real interviews with memory-impaired individuals presents difficultie
 5. **Insight Extraction**
    - After completing interviews, responses were coded and categorized.
    - Recurring themes, needs, frustrations, and feature suggestions were summarized.
+
+## Prompt
+
+<!-- TODO: add prompt example -->
 
 ## Analysis Process
 
