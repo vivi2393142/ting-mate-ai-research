@@ -4,27 +4,18 @@ This repository contains documentation for AI-driven research conducted as part 
 
 ## Repository Structure
 
-- [personas_design.md](personas_design.md): Methodology for designing personas and definitions of the 8 GPT personas used for interviews and evaluations.
-- [user_interviews/](./user_interviews/): Records of simulated user interviews conducted with GPT to gather requirements.
-  - [interview_methodology.md](./user_interviews/interview_methodology.md): Methodology for conducting GPT-based user interviews.
+- [personas_design.md](personas_design.md): How the 8 GPT personas were designed for interviews and evaluations.
+- [user_interviews/](./user_interviews/): Simulated user interviews with GPT for requirements.
+  - [interview_methodology.md](./user_interviews/interview_methodology.md): How GPT-based interviews were conducted.
   <!-- TODO -->
-  - [prompt_design.md](./user_interviews/prompt_design.md): Questions and prompts designed for the 8 personas.
+  - [prompt_design.md](./user_interviews/prompt_design.md): Questions and prompts designed for personas.
   <!-- TODO -->
-  - [analysis/](./user_interviews/analysis/): Analysis of GPT responses, including execution process, key findings, and feedback summary for each persona.
-    - `persona_1_analysis.md`
-    - `persona_2_analysis.md`
-    - ...
-    - `persona_8_analysis.md`
-  - [interview_summary.md](./user_interviews/interview_summary.md): Summary and analysis of interview findings.
-- [evaluation/](./evaluation/): Documentation of post-development evaluations using GPT.
-  - [evaluation_methodology.md](./evaluation/evaluation_methodology.md): Detailed methodology for conducting GPT-based evaluations.
-  - [process_design.md](./evaluation/process_design.md): Design of the evaluation process, including workflows and prompts.
-  - [analysis/](./evaluation//analysis/): Analysis of GPT evaluation results, including execution process, key findings, and feedback summary for each persona.
-    - `persona_1_analysis.md`
-    - `persona_2_analysis.md`
-    - ...
-    - `persona_8_analysis.md`
-  - [evaluation_summary.md](evaluation/evaluation_summary.md): Summary and analysis of evaluation results.
+  - [analysis/](./user_interviews/analysis/): Per-persona analysis of GPT responses, process, findings, and feedback.
+  - [interview_summary.md](./user_interviews/interview_summary.md): Summary of interview findings.
+- [evaluation/](./evaluation/): Post-development GPT evaluations.
+  - [evaluation_methodology.md](./evaluation/evaluation_methodology.md): How GPT-based evaluations were conducted.
+  - [analysis/](./evaluation//analysis/): Per-persona analysis of GPT results, process, findings, and feedback.
+  - [evaluation_summary.md](evaluation/evaluation_summary.md): Summary of evaluation results.
 
 ## Related Repositories
 
