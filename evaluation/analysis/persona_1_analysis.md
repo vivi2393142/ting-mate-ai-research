@@ -8,11 +8,7 @@
 
 ## Background
 
-[link to other file]
-
-## Care Context
-
-[link to other file]
+See Mr. Chang and his caregivers in Set 1 – [Persona Profiles](personas_design.md)
 
 ## Execution Summary
 
@@ -87,7 +83,7 @@ These problems were due to tool limitations, not app design.
 
 **Suggestion:** For icon-heavy tasks, consider using screen recording or tagging UI elements manually during simulation.
 
-## Full Dialogue
+## Full Transcripts
 
 ### Stage 1: First-time use without login or account setup
 
@@ -109,17 +105,15 @@ Below is some background information about you and your caregiving or care-recei
 
 Pair background:
 
-<!-- TODO: add persona's reference -->
-
-[See reference here]
+(Persona background omitted here; see [Background](#background) section above.)
 
 Your persona profile:
 
-<!-- TODO: add persona's reference -->
+(Persona background omitted here; see [Background](#background) section above.)
 
-[See reference here]
+Check the following for referencce:
 
-Let me know when you are ready to begin.
+- **Mr. Chang (Age 85)** - Memory-impaired individual
 
 </details>
 

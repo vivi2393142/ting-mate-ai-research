@@ -37,10 +37,6 @@ Conducting real interviews with memory-impaired individuals presents difficultie
    - After completing interviews, responses were coded and categorized.
    - Recurring themes, needs, frustrations, and feature suggestions were summarized.
 
-## Prompt
-
-<!-- TODO: add prompt example -->
-
 ## Analysis Process
 
 Interview transcripts were analyzed manually to identify:

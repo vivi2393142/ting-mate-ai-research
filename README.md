@@ -1,23 +1,23 @@
-# Ting-Mate AI Research
+# Ting Mate – AI-Assisted User Research and Evaluation
 
 This repository contains documentation for AI-driven research conducted as part of the Ting-Mate app development. It includes user interview simulations and testing records using GPT models.
 
 ## Repository Structure
 
-- [personas_design.md](personas_design.md): How the 8 GPT personas were designed for interviews and evaluations.
-- [user_interviews/](./user_interviews/): Simulated user interviews with GPT for requirements.
-  - [interview_methodology.md](./user_interviews/interview_methodology.md): How GPT-based interviews were conducted.
-  - [analysis/](./user_interviews/analysis/): Per-persona analysis of GPT responses, process, findings, and feedback.
-  - [interview_summary.md](./user_interviews/interview_summary.md): Summary of interview findings.
-- [evaluation/](./evaluation/): Post-development GPT evaluations.
-  - [evaluation_methodology.md](./evaluation/evaluation_methodology.md): How GPT-based evaluations were conducted.
-  - [analysis/](./evaluation//analysis/): Per-persona analysis of GPT results, process, findings, and feedback.
-  - [evaluation_summary.md](evaluation/evaluation_summary.md): Summary of evaluation results.
+- [Personas Design and Profiles](./personas_design.md): How the GPT personas were created, including full background settings and prompts.
+- [User Research](./user_interviews/)
+  - [Interview Methodology](./user_interviews/interview_methodology.md): How simulated interviews were conducted using GPT personas.
+  - [Interview Summary](./user_interviews/interview_summary.md): Summary of interview results. 🚧
+  - [Interviews](./user_interviews/interviews/): Full transcripts of interviews.
+- [Evaluation](./evaluation/)
+  - [Usability Test Methodology](./evaluation/evaluation_methodology.md): How simulated evaluation were conducted using GPT personas.
+  - [Evaluation Summary](evaluation/evaluation_summary.md): Summary of evaluation results. 🚧
+  - [Analysis](./evaluation/analysis/): Full transcripts of evaluation and analysis of the result. 🚧
 
 ## Related Repositories
 
-- [ting-mate-frontend](https://github.com/vivi2393142/ting-mate-frontend): Frontend code for the Ting-Mate app.
-- [ting-mate-backend](https://github.com/vivi2393142/ting-mate-backend): Backend code for the Ting-Mate app.
+- [Ting Mate – Mobile App Frontend](https://github.com/vivi2393142/ting-mate-frontend)
+- [Ting Mate – Backend and API Services](https://github.com/vivi2393142/ting-mate-backend)
 
 ## Usage
 
