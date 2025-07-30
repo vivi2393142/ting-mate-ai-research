@@ -64,73 +64,134 @@ Your husband, John (Age 55, Husband)
 
 #### 1.1 Memory-Impaired Persona: Mr. Chang
 
-- **Background**: 85 years old, a retired physician, his son and daughter-in-law live with him in countryside, slight memory impairment, independent, cannot hear clearly, refuses to see a doctor, not aware of his own symptoms.
-- **Memory/Caregiving Traits**: Repeats himself all the time and forgets things that just happened. Able to handle simple daily tasks like eating, washing dishes, and laundry. Unaware of his memory loss issue, refuses any medical aid.
-- **Interaction Style**: Conversations are often repetitive. Not much communication with his son and daughter-in-law but is more willing to talk with his daughter. Stubborn, somewhat emotionally isolated, enjoys checking in with his daughter.
-- **Tech Use**: Makes phone calls and sends quick voice messages via WhatsApp. No other smartphone features are being used.
-- **Daily Life**: Follows a regular schedule of waking at 6 #### m., preparing breakfast, having a cup of tea, and watching TV. Limited or even no social events but stays at home mostly.
+- **Background**: 85 years old, retired physician, lives with his son and daughter-in-law in a rural town. Early stages of memory loss, independent but forgetful; hearing loss affecting communication. Does not acknowledge memory loss and refuses to visit a doctor.
+- **Memory/Caregiving Traits**:
+  - **Memory Issues**: Repeating topics in conversation, forgetting recent events.
+  - **Caregiving Roles**: Still able to perform basic daily tasks like eating, washing dishes, and laundry independently, but relies on others for support.
+  - **Attitudes**: Unaware of memory loss, refuses medical help, stubborn about accepting assistance.
+- **Interaction Style**:
+  - **Communication Patterns**: Conversations are often repetitive; limited communication with son and daughter-in-law but frequent calls with his daughter.
+  - **Emotional Tone**: Stubborn, somewhat isolated emotionally, but enjoys checking in with his daughter.
+- **Tech Use**: Limited to using a phone for calls and sending short voice messages via WhatsApp. Does not use a smartphone for other functions.
+- **Daily Life**: Follows a consistent routine of waking up at 6 a.m., making breakfast, brewing tea, and watching television most of the day.
+- **Hobbies**: Limited social activities, mostly stays at home.
+- **Keywords**: Age-Related Memory Loss, Elderly, Limited Tech Use, Social Isolation, No Doctor, Routine, Stubborn, Memory Loss, Independence
+- **Tags**: #AgeRelatedMemoryLoss #Elderly #LimitedTechUse #SocialIsolation #NoDoctor #Routine #Stubborn #MemoryLoss #Independence
 
-#### 1.2 Caregiver Persona: Mrs. Chang
+#### 1.2 Primary Caregiver: Mrs. Chang (Age 55, Daughter-in-Law)
 
-- **Background**: 55 years old, primary caregiver, doing a part-time job at a nearby local store, lives with Mr. Chang, caregiving makes her tired sometimes.
-- **Memory/Caregiving Traits**: Tracks Mr. Chang's status, ensures his safety, helps him with daily tasks, and respects Mr. Chang's independence.
-- **Interaction Style**: Short and repetitive conversations. Usually interacts during meal times. Checks Mr. Chang's health status through conversation sometimes. Calm, practical, hands-off approach.
-- **Tech Use**: Able to have communication via phones but does not rely on caregiving technology.
-- **Daily Life**: Works part-time. Spends time taking care of Mr. Chang and the whole family all the time.
+- **Background**: 55 years old, part-time worker at a nearby store, lives with her father-in-law, Mr. Chang. Healthy but affected emotionally by caregiving responsibilities.
+- **Memory/Caregiving Traits**:
+  - **Caregiving Roles**: Prepares meals for Mr. Chang, ensures his safety around the house, and manages his daily needs.
+  - **Attitudes**: Practical, respects Mr. Chang's space, and prefers to give him independence. Only intervenes when something seems wrong or unsafe.
+- **Interaction Style**:
+  - **Communication Patterns**: Brief, often repetitive conversations, focuses on meal times and health updates.
+  - **Emotional Tone**: Calm, practical, and hands-off in her approach to caregiving.
+- **Tech Use**: Uses a phone for communication but does not rely on technology for caregiving.
+- **Daily Life**: Works part-time, manages household duties and caregiving tasks, prepares meals. Limited hobbies due to caregiving duties.
+- **Keywords**: Daughter-in-Law, Practical Caregiving, Part-Time Work, Respects Independence
+- **Tags**: #PrimaryCaregiver #MealSupport #PartTimeWork #FamilyCommunication #IndependenceRespect #PracticalCaregiving
 
-#### 1.3 Caregiver Persona: Ms. Chang
+#### 1.3 Secondary Caregiver: Ms. Chang (Age 64, Daughter)
 
-- **Background**: 64 years old, Mr. Chang's daughter, full-time job as a bookkeeper, lives an hour away from dad and visits on weekends.
-- **Memory/Caregiving Traits**: Takes care of dad remotely by giving emotional support, regular checking-ins, and taking him to see doctor when needed.
-- **Interaction Style**: Mainly through phone calls, being kind, warm and patient to her dad.
-- **Tech Use**: Uses messaging apps often, but not good at learning new apps or features.
-- **Daily Life**: Works at home. Visits dad weekly. Spends most of her time with Mr. Chang on weekends.
+- **Background**: 64 years old, works from home as a bookkeeper, lives an hour away from Mr. Chang, visits him on weekends. Healthy, balancing work and caregiving responsibilities remotely.
+- **Memory/Caregiving Traits**:
+  - **Caregiving Roles**: Provides emotional support, checks in regularly, visits on weekends, and takes Mr. Chang to doctor's appointments when needed.
+  - **Attitudes**: Compassionate, patient, and understanding of the repetitive nature of her father's conversations.
+- **Interaction Style**:
+  - **Communication Patterns**: Frequent phone calls throughout the day, mostly focused on small talk and reassurance. Open and comfortable communication.
+  - **Emotional Tone**: Patient, emotionally supportive, and nurturing during visits.
+- **Tech Use**: Uses her phone and potentially other devices for communication with family, no mention of other tech for caregiving.
+- **Daily Life**: Works from home, balances caregiving responsibilities remotely, and visits her father every weekend. Likely limited hobbies due to work and caregiving, but visits and calls with her father are a significant part of her life.
+- **Keywords**: Daughter, Emotional Support Provider, Remote Care, Weekly Visits, Full-Time Worker
+- **Tags**: #SecondaryCaregiver #EmotionalSupport #RemoteCare #WeeklyVisits #FullTimeWork #Patient #FamilySupport
 
 ### Set 2: From AlzConnected Forum – Early-Onset Dementia
 
-#### 2.1 Memory-Impaired Persona: Jane
+#### 2.1 Memory-Impaired Persona: Jane (Age 51)
 
-- **Background**: 51 years old, has no job, lives with her husband John, was diagnosed with early-onset dementia at 47. Started having medication recently, and it does make her memory issue better sometimes.
-- **Memory/Caregiving Traits**: Forgets recent events, repeats conversations, has difficulty with short-term memory. Can manage simple tasks but relies on her husband for routines and health care. Receives aid and may not fully understand her own condition.
-- **Interaction Style**: Repeats conversation, has some friends to text and hang out with.
-- **Tech Use**: Can use a few basic phone features like making phone calls, messaging, scrolling on Facebook, and browsing or taking photos. Does not explore new apps.
-- **Daily Life**: Routine. Enjoys taking care of the garden, watching TV, and making meals.
-  Other caregiver: Her son, who is 23 years old, does not live with her but comes home monthly to help with tech issues.
+- **Background**: 51 years old, no work, lives with her husband John. Diagnosed with early-onset dementia at 47. Recently restarted medication after discontinuing it due to side effects. Currently stable with medication, but experiences fluctuating days.
+- **Memory/Caregiving Traits**:
+  - **Memory Issues**: Forgetting recent events, repeating conversations, struggling with short-term memory.
+  - **Caregiving Roles**: Can still manage simple tasks like meal prep and light chores but requires her husband's support for daily routines and managing health.
+  - **Attitudes**: Accepts help from her husband but may not fully understand the extent of her memory issues.
+- **Interaction Style**:
+  - **Communication Patterns**: Conversations are often repetitive; she stays socially active through texting and occasionally meeting friends for meals.
+  - **Emotional Tone**: Generally calm, but may feel frustrated when memory lapses occur.
+- **Tech Use**: Comfortable using basic phone features like calls, messaging, Facebook, and taking photos. However, she does not actively seek out new technology or apps.
+- **Daily Life**: Follows a consistent routine with help from her husband, including meals, medication, and other household tasks. At home, she enjoys gardening, watching TV, or cooking simple meals.
+- **Hobbies**: Gardening, socializing with friends through messaging and occasional meet-ups, watching TV.
+- **Family Dynamics**: Son (age 23) recently started working and lives separately. He doesn't actively participate in caregiving but helps by teaching his parents how to use smartphones when needed. He visits once a month.
+- **Social Life**: Regular social interactions with friends through messaging and occasional meals.
+- **Keywords**: Early-Onset Dementia, Social Engagement, Medication Management, Technologically Comfortable
+- **Tags**: #EarlyOnsetDementia #YoungerAdult #MedicationUse #Socializing #TechnologyComfortable
 
-#### 2.2 Caregiver Persona: John
+#### 2.2 Caregiver: John (Age 55, Husband)
 
-- **Background**: 55 years old, elementary school teacher, lives with Jane, emotionally strained by caregiving.
-- **Memory/Caregiving Traits**: Reminds Jane to take medicine on time or any other scheduled events while also providing emotional support for Jane. Very patient and dedicated on caregiving.
-- **Interaction Style**: Talks to Jane regularly to check her status and maintain their relationship.
-- **Tech Use**: Uses phones to make notes of scheduled events and communication with doctors.
-- **Daily Life**: Works full-time, helps with meals, meds, and daily care. Limited time for self.
-  Social Life: Little or no visiting outside home, some contact with friends/relatives.
+- **Background**: 55 years old, full-time worker as an elementary school teacher, lives with Jane, her primary caregiver. Healthy, but mentally and emotionally affected by the strain of caregiving.
+- **Memory/Caregiving Traits**:
+  - **Caregiving Roles**: Manages Jane's medication schedule, provides emotional support, ensures her routines are maintained.
+  - **Attitudes**: Extremely patient and dedicated, but often feels overwhelmed by caregiving responsibilities.
+- **Interaction Style**:
+  - **Communication Patterns**: Frequent communication with Jane about her needs, her well-being, and daily routines.
+  - **Emotional Tone**: Supportive, patient, but emotionally strained from caregiving duties.
+- **Tech Use**: Uses a smartphone to keep track of Jane's appointments and communicate with her doctor, but doesn't use technology heavily for other tasks.
+- **Daily Life**: Works full-time, then comes home to assist Jane with meals, medication, and daily activities. He often manages her routine and health updates.
+- **Hobbies**: Limited due to caregiving responsibilities; his focus is on Jane's well-being.
+- **Social Life**: John doesn't engage in much socializing outside the home due to caregiving, but he occasionally connects with friends or family when possible.
+- **Family Dynamics**: Son (age 23) does not live at home but visits once a month. He helps his parents with tech-related issues, such as teaching them to use smartphones.
+- **Keywords**: Spouse, Emotional Support Provider, Full-Time Worker, Care Coordination
+- **Tags**: #PrimaryCaregiver #Spouse #FullTimeWork #EmotionalSupport #Overwhelmed #RoutineFocused
 
-#### Set 3: From AlzConnected Forum – Only Child as Caregiver
+### Set 3: From AlzConnected Forum – Only Child as Caregiver
 
-#### 3.1 Memory-Impaired Persona: Ally’s Mother
+#### 3.1 Memory-Impaired Persona: Ally's Mother (Age 68)
 
-- **Background**: 68 years old, retired few years ago, lives with daughter Ally, has multiple health issues including early-onset dementia along with arthritis, kidney disease, and even breathing issues resulting from smoking. Rapid health decline.
-- **Memory/Caregiving Traits**: Severe memory issues. Forgets where things are. Heavily dependent on Ally. Stubborn and refuses help from others.
-- **Interaction Style**: Repetitive and confused conversation. Being down sometimes because of her memory loss symptoms. Frustration with difficult tasks.
-- **Tech Use**: Can make phone calls, send messages and use Facebook. Ally helps her on tech issues when needed.
-- **Daily Life**: Stays at home most of the time. Rarely cooks and shops. No hobbies due to health. Relatives visit her sometimes on weekends.
+- **Background**: 68 years old, retired (early retirement), lives with her daughter, Ally, in a cluttered house that has become increasingly difficult to manage. They have lived in the city. Diagnosed with early-onset dementia. Also suffers from severe arthritis, kidney disease, and chronic breathing issues due to smoking. Her health has deteriorated rapidly since her early retirement.
+- **Memory/Caregiving Traits**:
+  - **Memory Issues**: Significant memory lapses, likely associated with the early stages of dementia. She struggles with remembering recent events and often forgets where things are placed.
+  - **Caregiving Roles**: Dependent on her daughter for daily care and managing the household.
+  - **Attitudes**: Refuses to acknowledge the extent of her memory issues. She has a strong work ethic and a stubborn attitude, making it difficult for her to accept help from others.
+- **Interaction Style**:
+  - **Communication Patterns**: Her communication is sometimes repetitive and confused, especially when discussing past events or daily activities.
+  - **Emotional Tone**: Emotional distress when reminded of her memory loss. She still maintains an independent attitude but gets frustrated when tasks become too difficult.
+- **Tech Use**: Comfortable with basic phone functions, such as calls, messaging, and social media (e.g., Facebook). When she has difficulties, Ally helps her with more complex tasks.
+- **Daily Life**: Spends most of her time at home, with Ally managing most aspects of daily life. Her arthritis and breathing issues prevent her from moving around easily, and she relies on Ally for most tasks. She is able to cook simple meals for herself and occasionally goes to the supermarket or local market with Ally to buy groceries. While she doesn't socialize much with friends, her relatives occasionally visit on weekends to chat or go for walks.
+- **Hobbies**: Limited due to her health. She once enjoyed traveling, shopping, and socializing with relatives. She may attempt small crafts or hobbies around the house but struggles with physical limitations.
+- **Keywords**: Other Health Conditions, Stubborn, Independence-Seeking, Social Engagement
+- **Tags**: #HealthIssues #Stubborn #Independence #Socializing
 
-#### 3.2 Caregiver Persona: Ally
+#### 3.2 Caregiver: Ally (Age 22)
 
-- **Background**: 22 years old, a real estate agent, lives with mom, feels overwhelmed as she is the only caregiver to her mom.
-- **Memory/Caregiving Traits**: Does everything for her mom including cleaning, cooking, and handling day-to-day task.
-- **Interaction Style**: Reminds her mom what to do in person, sometimes through messaging when Ally is working.
-- **Tech Use**: Uses phone to talk and discuss with doctors and can learn new tech or apps easily.
-- **Daily Life**: Balances work and caregiving. Mental exhaustion, no hobbies.
-  Social Life: Lives a lonely life and has no external support.
+- **Background**: 22 years old, full-time worker as a real estate agent, lives with her mother, who is the primary care recipient. They have lived in the city for their entire lives. Healthy, but emotionally and mentally affected by her caregiving role.
+- **Memory/Caregiving Traits**:
+  - **Caregiving Roles**: Primary caregiver for her mother, managing her daily needs, cleaning, cooking, and ensuring her safety. Also takes on the role of managing the household and providing emotional support for her mother.
+  - **Attitudes**: Overwhelmed and stressed but feels a deep sense of responsibility for her mother's care. Struggles with mental health challenges due to the emotional toll of caregiving.
+- **Interaction Style**:
+  - **Communication Patterns**: Frequent communication with her mother, offering reassurance and providing explanations when her mother forgets things. Sometimes gets frustrated due to the constant responsibility.
+  - **Emotional Tone**: Emotionally drained, often feeling overwhelmed and isolated in her caregiving role.
+- **Tech Use**: Uses her smartphone to keep in touch with her mother's doctors and manage household needs. Likely helps her mother with technology tasks, such as calls or messages, when necessary.
+- **Daily Life**: Manages caregiving tasks and the household. She cleans, cooks, and ensures her mother's needs are met but feels mentally drained by the ongoing responsibilities.
+- **Hobbies**: Limited socializing and personal time due to caregiving duties. Feels isolated and often overwhelmed by the situation, leading to occasional emotional breakdowns.
+- **Social Life**: Lacks external support and social interaction, although she wishes she could spend more time outside the caregiving role. Sometimes feels lost in her overwhelming responsibilities.
+- **Keywords**: Young Caregiver, Isolated, Mental Health Challenges, No External Support
+- **Tags**: #YoungCaregiver #CaregiverBurnout #EmotionalExhaustion #Isolation #MentalHealthChallenges #FamilyCaregiving #Overwhelmed #NoExternalSupport #LimitedSocializing
 
-#### Set 4: From AlzConnected Forum – Positive Framing of Memory Loss
+### Set 4: From AlzConnected Forum – Positive Framing of Memory Loss
 
-#### 4.1 Memory-Impaired Persona: Jacky
+#### 4.1 Memory-Impaired Persona: Jacky (Age 50)
 
-- **Background**: 50 years old, social worker, lives on his own, found to have younger-onset Alzheimer’s at 45. Chooses to have active and positive lifestyle even having the disease.
-- **Memory/Caregiving Traits**: Has memory loss but able to remain living independently with occasional support. Resilient, not willing to let diagnosis define life.
-- **Interaction Style**: Open about condition. Active in public speaking and Alzheimer’s advocacy.
-- **Tech Use**: Uses apps to track his own health conditions and chats with friends or others via messaging apps.
-- **Daily Life**: Does exercise regularly, walking the dog, public awareness work. Dog provides companionship for him.
+- **Background**: 50 years old, social worker sharing experience about his disease, lives independently. Diagnosed with younger-onset Alzheimer's at age 45. Despite the diagnosis, he chooses to focus on the positive aspects of life and works to maintain an active and fulfilling routine.
+- **Memory/Caregiving Traits**:
+  - **Memory Issues**: Struggles with memory lapses, common in younger-onset Alzheimer's, but chooses to focus on maintaining a positive outlook and staying active.
+  - **Caregiving Roles**: While Jacky is independent, he relies on support from family and friends when necessary, especially on more difficult days.
+  - **Attitudes**: Positive, proactive, and resilient. He is determined to live a fulfilling life and not let Alzheimer's define him.
+- **Interaction Style**:
+  - **Communication Patterns**: Communicates openly about his diagnosis, sharing his journey through public speaking and interactions with the Alzheimer's Association.
+  - **Emotional Tone**: Optimistic and hopeful, although he experiences moments of difficulty, particularly on days when he struggles with daily tasks.
+- **Tech Use**: Likely uses a smartphone and other devices to stay connected, track his health, and participate in Alzheimer's awareness initiatives.
+- **Daily Life**: Jacky stays physically active with daily walks, cardio, and strength training, which help him maintain his physical and mental well-being. He has a dog, which provides companionship and helps keep him motivated to stay active and structured.
+- **Hobbies**: Enjoys sharing his story publicly through the Alzheimer's Association and staying active with physical exercises. His dog is a constant source of comfort and motivation.
+- **Social Life**: Actively participates in Alzheimer's awareness and fundraising events. He enjoys speaking publicly about his journey and sharing his experiences with others, finding fulfillment in helping raise awareness.
+- **Keywords**: Early-Onset Alzheimer's, Active Lifestyle, Positive Outlook, Pet Companion, Self-Care Focused
+- **Tags**: #YoungerOnsetAlzheimer's #ActiveLifestyle #PositiveOutlook #PetCompanion #PublicSpeaking #AlzheimersAwareness #Resilient #Independence
