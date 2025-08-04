@@ -111,9 +111,7 @@ Your persona profile:
 
 (Persona background omitted here; see [Background](#background) section above.)
 
-Check the following for referencce:
-
-- **Mr. Chang (Age 85)** - Memory-impaired individual
+Firstly, please do explore the app freely for 2 minutes
 
 </details>
 
