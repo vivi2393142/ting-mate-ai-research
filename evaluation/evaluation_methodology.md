@@ -50,7 +50,7 @@ During each session, the following aspects were evaluated:
 - Hesitation or confusion during navigation
 - Comments indicating satisfaction, frustration, or misunderstanding
 
-## Prompt 🚧
+## Prompt
 
 The prompt below was used to guide Claude during Think Aloud testing. It introduces the task format, MCP interface, and persona context to simulate natural interaction with the app.
 
@@ -104,75 +104,84 @@ For detailed results, see [evaluation_summary.md](./evaluation_summary.md) and t
 
 Tasks were based on realistic first-time usage scenarios. Each persona followed a tailored sequence of tasks, as outlined below.
 
-### Stage 1-1: Carereceiver (No Login Required)
+## Carereceiver
 
-**Objective:** Evaluate app comprehension and usability for memory-impaired individuals using the app independently.
+- Objective: Evaluate app comprehension and ease of use for independent users
+- Role: Carereceiver from GPT Care Pairs
 
-| Step | Prompt / Task                                                         | Observation Focus                         |
-| ---- | --------------------------------------------------------------------- | ----------------------------------------- |
-| 1    | "This app helps you remember daily things. Please explore it freely." | Initial comprehension without instruction |
-| 2    | _(No prompt)_ — allow 2 minutes for free exploration                  | Natural discovery of key features         |
-| 3    | "Try adding a task reminder, like ‘Take medicine tomorrow at 8am’."   | Task creation using touch input           |
-| 4    | "Try using voice input to create a reminder."                         | Ability to use speech interface           |
+### Stage 1: without login and linking
 
-**Post-task Questions:**
+| Step | Prompt / Task                                                         | What to Observe                                                       |
+| ---- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 1    | "This app helps you remember daily things. Please explore it freely." | If care receivers can understand the app without any guidance         |
+| 2    | _(No prompt)_ — allow 2 minutes for free exploration                  | What the user tries first; whether they find key features intuitively |
+| 3    | "Try adding a task reminder, like 'Take medicine tomorrow at 8am'."   | If care receivers can create a task on their own                      |
+| 4    | "Try using voice input to create a reminder."                         | If care receivers can use voice input to create a task on their own   |
 
-- Was the app easy to use?
-- Was anything hard to use?
-- Would you use this in daily life?
-- Would you like to share tasks with someone?
-- Would you prefer using voice?
+### Stage 2: with login and linking
 
-### Stage 1-2: Caregiver (Login + Link Required)
+Setup:
 
-**Objective:** Assess the caregiver’s ability to log in, link to a care receiver, and manage shared tasks.
-
-| Step | Prompt / Task                                                                                       | Observation Focus                            |
-| ---- | --------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 1    | "You are a caregiver. This app helps you manage reminders for someone you care for. Please log in." | Ability to complete the login or signup flow |
-| 2    | _(No prompt)_ — observe login process                                                               | Completion and ease of login                 |
-| 3    | "Add a ‘Take medicine’ reminder for your partner. I’ll act as the care receiver."                   | Task creation process                        |
-| 4    | _(No prompt)_ — observe linking process                                                             | Ability to complete account linking          |
-| 5    | _(No prompt)_ — observe task management after linking                                               | Understanding of shared task system          |
-
-**Post-task Questions:**
-
-- Was the app easy to use?
-- Was anything difficult or confusing?
-- Was the feature helpful for caregiving?
-
-### Stage 2: Collaborative Interaction (Pre-linked, Dual Devices)
-
-**Objective:** Evaluate shared task flow and collaborative features between caregiver and carereceiver.
-
-**Prior to evaluation:**
-
-1. Accounts for both caregiver and carereceiver were pre-created and linked.
-2. A note titled "Where things are" was added to the carereceiver’s account, containing:
+1. Make an account for them and link it
+2. Add a contact
+3. Add a note:
+   ```
+   Where things are
    - Glasses → on the small table by the couch
    - Remote → in the TV drawer
    - Keys → on the hook by the front door
-3. A caregiver contact was added.
+   ```
 
-#### Care Receiver Tasks
+| Step | Prompt / Task                                                                 | What to Observe                       |
+| ---- | ----------------------------------------------------------------------------- | ------------------------------------- |
+| CR1  | "You've just [task he/she added in stage 1]. Please mark it as completed."    | Carereceiver task completion          |
+| CR2  | "Have a look at the notes and find out where your key is."                    | Ability to find and use notes feature |
+| CR3  | "Try finding the contact list in the app and making a call to [mate's name]." | Use of contact and call functionality |
 
-| Step | Prompt / Task                                                                      | Observation Focus                     |
-| ---- | ---------------------------------------------------------------------------------- | ------------------------------------- |
-| CR1  | "You’ve just taken your pill. Please mark it as completed."                        | Carereceiver task completion          |
-| CR2  | "Have a look at the notes and find out where your key is."                         | Ability to find and use notes feature |
-| CR3  | "Try finding the contact list in the app and making a call to [caregiver's name]." | Use of contact and call functionality |
+### Stage 3: feedback
 
-#### Caregiver Tasks with Account Switching
+- What part of the app do you like the most? And what you don't like the most?
+- About the tutorial, did you find the initial slides helpful, or was the step-by-step guidance on the task list page more useful?
+- Would you like to use this app with your relatives together?
+- Are there any other features you'd like to see in this app?
+- Do you like the features on "Connect" screen?
+- Would you like to do "call xxx" in this app, or you prefer your own way to do so?
 
-| Step | Prompt / Task                                                                                                                                                                                                                                      | Observation Focus                                          |
-| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| CG1  | _(From caregiver account, mark a task as done)_ _"Check if you received any notification, then open the notification center to view it."_                                                                                                          | Notification sync and awareness                            |
-| CG2  | _(Switch to carereceiver’s account)_ _"Now you’re going to help [carereceiver’s name] to do some setup. You can see their app now on the simulator. Please navigate to the Connect screen and enable location sharing for [carereceiver’s name]._" | Cross-account interface understanding and location sharing |
-| CG3  | _"Set up a Safezone for [carereceiver’s name]."_                                                                                                                                                                                                   | Safezone configuration and UI usability                    |
-| CG4  | _"Add the caregiver’s contact to [carereceiver’s name]’s app, then try making a call through the app."_                                                                                                                                            | Contact feature and communication interface                |
-| CG5  | _(Switch back to caregiver’s own account)_ _"Now you are switching back to your own account. Check where [carereceiver’s name] is now."_                                                                                                           | Location sharing and alert check                           |
+## Caregiver
 
-**Post-task Questions:**
+- Objective: Assess the ability to log in, link to a care recipient, and manage shared tasks
+- Role: Caregiver from GPT Care Pairs, played by classmate
 
-- _Carereceiver:_ Was the reminder helpful or intrusive? Did you feel in control?
-- _Caregiver:_ Would you use this feature regularly? Do you foresee any issues?
+### Stage 1: without login and linking
+
+Setup:
+
+1. Logout, clear init states
+2. Login to caregiver's account on phone
+
+| Step | Prompt / Task                                                                                                                                                                                            | What to Observe                                            |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| 1    | "You are a caregiver. This app helps you manage reminders for someone you care for. Please sign up."                                                                                                     | Ability to complete the signup flow                        |
+| 2    | "Next, you need to link account with the one. I'll act as the one and having account, tell me what I should do so that we can link account if needed."                                                   | Ability to understand and complete account linking process |
+| 3    | "The one you're taking care of just mark the 'take medication' as done, check Home screen to see and also see the notifications through notification center, that's the bell icon on the top right side" | Ability to check task completion and notifications         |
+
+### Stage 2: with login and linking
+
+Setup:
+
+1. Handle fake account and link with the caregiver
+2. Open sharing location feature on Mate's account
+
+| Step | Prompt / Task                                                                                                                   | What to Observe                                        |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| CG1  | "Navigate to Connect screen and check Mate's location tab, then set up a safezone for the one you're taking care of"            | Ability to navigate Connect screen and set up safezone |
+| CG2  | "Navigate to Mate's Contacts screen then add a contact for the one you're taking care of, then make a call through Contact tab" | Ability to manage contacts and make calls              |
+| CG3  | "Make a sharing note on Shared Space"                                                                                           | Ability to create and share notes                      |
+
+### Stage 3: feedback
+
+- What part of the app do you like the most? And what you don't like the most?
+- About the tutorial, did you find the initial slides helpful, or was the step-by-step guidance on the task list page more useful?
+- Would you like to use this app with your relatives together?
+- Are there any other features you'd like to see in this app?
+- Do you like the features on "Connect" screen?
