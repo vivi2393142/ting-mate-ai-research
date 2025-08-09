@@ -12,7 +12,8 @@ This repository contains documentation for AI-driven research conducted as part 
   - [Interviews](./user_research/interviews/): Full transcripts of interviews.
 - [Evaluation](./evaluation/)
   - [Usability Test Methodology](./evaluation/methodology.md): How simulated evaluation were conducted using GPT personas.
-  - [Evaluation Analysis & Findings](./evaluation/analysis_and_findings.md): Summary of evaluation results. 🚧
+  - [Evaluation Analysis & Findings](./evaluation/analysis_and_findings.md): Summary of evaluation results.
+  - [Full Code Analysis](./evaluation/full_code_analysis): Themes and codes, with their definitions, code occurrence counts, and supporting quotes.
   - [Analysis](./evaluation/analysis/): Full transcripts of evaluation and analysis of the result.
 
 ## Related Repositories
