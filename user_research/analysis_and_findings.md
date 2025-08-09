@@ -33,6 +33,15 @@ Below is a brief description of each theme identified in the analysis:
 9. **App-Specific Preferences** – Expectations about app setup, notifications, and privacy.
 10. **Current Coping Strategies** – Methods currently used to manage memory challenges.
 
+## Key Insights
+
+- **Collaboration is central to care.** Families want a shared, lightweight way to see “what happened” and “what’s next” — e.g., synced task status, simple activity logs, and an at‑a‑glance overview for caregivers.
+- **Support independence and control.** Participants prefer tools that help rather than monitor. Clear privacy choices (what is shared, with whom, and when) are essential to preserve dignity and autonomy.
+- **Keep it simple and familiar.** Both groups favour minimal steps, predictable patterns, and UI conventions they already know. Short, contextual guidance works better than heavy tutorials.
+- **Routines and medication are anchor use cases.** Daily task reminders and medication prompts are core needs for memory‑impaired users and reduce caregiver anxiety.
+- **Tone matters for reassurance.** Encouraging, non‑judgmental microcopy and gentle reminders help users feel supported, not pressured.
+- **Bridge to existing coping strategies.** Many memory‑impaired users already rely on physical aids (sticky notes, wall calendars). Designs that align with—or smoothly digitize—these habits can lower the learning curve.
+
 ## Access Full Analysis
 
 The **full code analysis** contains:
