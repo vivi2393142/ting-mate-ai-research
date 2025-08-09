@@ -37,23 +37,6 @@ Conducting real interviews with memory-impaired individuals presents difficultie
    - After completing interviews, responses were coded and categorized.
    - Recurring themes, needs, frustrations, and feature suggestions were summarized.
 
-## Analysis Process
-
-Interview transcripts were analyzed manually to identify:
-
-- Common needs shared across personas
-- Pain points in memory management or caregiving
-- Preferred modes of interaction (voice vs. touch)
-- App features viewed as essential or confusing
-
-Insights from this analysis were summarized in structured tables and used to inform:
-
-- Initial wireframes and UI design
-- Feature prioritization
-- Task scenarios for prototype evaluation
-
-For complete transcripts and extracted insights, see the `user_interviews/` folder and `interview_summary.md`.
-
 ## Full Interview Questionnaires
 
 ### Question Set for Memory-Impaired Individuals

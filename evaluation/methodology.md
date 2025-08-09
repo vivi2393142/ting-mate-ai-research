@@ -84,16 +84,6 @@ Your persona profile:
 Firstly, please do explore the app freely for 2 minutes.
 ```
 
-## Analysis Process
-
-Evaluation logs were analyzed to determine:
-
-- Whether the app flow was intuitive
-- Which tasks caused confusion or failure
-- Alignment between persona expectations and app behavior
-- Emergent feedback or requests for improvement
-- Findings were summarized to guide further iteration.
-
 ## Limitations
 
 While this method provides early feedback, it does not fully replicate real human behavior. AI agents do not experience physical or emotional responses such as frustration, fatigue, or accessibility challenges. However, it offers valuable insight into design clarity, task flow logic, and potential error cases, particularly when access to real users is limited.
