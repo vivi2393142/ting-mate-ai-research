@@ -13,7 +13,7 @@ The table below summarises the five most frequent codes for each persona group, 
 | Memory-impaired personas                                  | Caregiver personas                                              |
 | --------------------------------------------------------- | --------------------------------------------------------------- |
 | Family support reliance (`FAMILY_SUPPORT_RELIANCE`, 33)   | Remote monitoring need (`REMOTE_MONITORING_NEED`, 27)           |
-| Autonomy preservation (`AUTONOMY_PRESERVATION`, 27)       | Simplicity preference (`SIMPLICITY_PREFERENCE`, 25)             |
+| Maintaining independence (`MAINTAINING_INDEPENDENCE`, 27) | Simplicity preference (`SIMPLICITY_PREFERENCE`, 25)             |
 | Medication reminders (`MEDICATION_REMINDERS`, 19)         | Caregiver dashboard (`CAREGIVER_DASHBOARD`, 25)                 |
 | Simplicity preference (`SIMPLICITY_PREFERENCE`, 18)       | Emotional exhaustion (`EMOTIONAL_EXHAUSTION`, 22)               |
 | Daily routine forgetting (`DAILY_ROUTINE_FORGETTING`, 17) | Gentle reminders preference (`GENTLE_REMINDERS_PREFERENCE`, 21) |
