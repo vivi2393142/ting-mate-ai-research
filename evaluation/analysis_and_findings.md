@@ -2,46 +2,38 @@
 
 This directory contains the analysis of GPT-simulated persona evaluations conducted for the Ting Mate project after the functional prototype was developed.
 
-The analysis used **directed content analysis** to categorize post-task feedback and think-aloud comments into three predefined themes: **Positive Feedback**, **Areas for Improvement**, and **Feature Suggestions**. Codes were applied only to the feedback portions of the interaction transcripts (including think-aloud commentary), and each occurrence was counted separately for memory-impaired personas (care receivers) and caregiver personas.
+The analysis used **directed content analysis** to categorize post-task feedback and think-aloud comments into three predefined themes: **Positive Feedback**, **Areas for Improvement**, and **Feature Suggestions**. Each theme contained subcategories, some adapted from Jakob Nielsen’s usability heuristics and others added during analysis. All feedback instances were coded and counted separately for memory-impaired personas and caregiver personas.
 
-## Top Three Most Frequent Codes by Persona Group
+## Top Three Subcategories per Category
 
-The table below summarizes the three most frequent codes for each persona group, with occurrence counts in parentheses.
+The table below summarises the top three subcategories in each evaluation category for both persona groups, with occurrence counts in parentheses.
 
-| Care receiver personas                                              | Caregiver personas                                                 |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Collaboration feeling (`PF_COLLABORATION_FEELING`, 12)              | Caregiver support (`PF_CAREGIVER_SUPPORT`, 23)                     |
-| Tutorial helpful (`PF_TUTORIAL_HELPFUL`, 12)                        | Collaboration feeling (`PF_COLLABORATION_FEELING`, 21)             |
-| Memory support (`PF_MEMORY_SUPPORT`, 11)                            | Location safety (`PF_LOCATION_SAFETY`, 9)                          |
-| Privacy & autonomy control (`AFI_PRIVACY_AUTONOMY_CONTROL`, 35)     | Privacy & autonomy control (`AFI_PRIVACY_AUTONOMY_CONTROL`, 20)    |
-| UI complexity & navigation (`AFI_UI_COMPLEXITY_AND_NAVIGATION`, 14) | UI complexity & navigation (`AFI_UI_COMPLEXITY_AND_NAVIGATION`, 9) |
-| Time picker difficulty (`AFI_TIME_PICKER_DIFFICULTY`, 11)           | Contact setup difficulty (`AFI_CONTACT_SETUP_DIFFICULTY`, 8)       |
-| Accessibility (`FS_ACCESSIBILITY`, 6)                               | Accessibility (`FS_ACCESSIBILITY`, 9)                              |
-| Tutorial improvement (`FS_TUTORIAL_IMPROVEMENT`, 6)                 | Tutorial improvement (`FS_TUTORIAL_IMPROVEMENT`, 4)                |
-| Medication tracking (`FS_MEDICATION_TRACKING`, 4)                   | Voice message & notes (`FS_VOICE_MESSAGE_AND_NOTES`, 3)            |
+| Category                  | Memory-impaired personas                                                                                  | Caregiver personas                                                                            |
+| ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Positive Feedback**     | Family and Collaboration (22) <br> Recognition Rather than Recall (18) <br> Help and Documentation (12)   | Family and Collaboration (29) <br> General Support (28) <br> Visibility of System Status (13) |
+| **Areas for Improvement** | User Control and Freedom (36) <br> Aesthetic and Minimalist Design (14) <br> Voice and Communication (12) | User Control and Freedom (21) <br> General (21) <br> Aesthetic and Minimalist Design (11)     |
+| **Feature Suggestions**   | Daily Life Support (8) <br> General (7) <br> Customization and Control (6)                                | General (19) <br> Daily Life Support (10) <br> Health and Wellbeing (8)                       |
 
 ## Theme Summary
 
-Below is a brief description of each theme used in the analysis:
-
-1. **Positive Feedback** – Elements of the app that participants found useful, enjoyable, or supportive during interaction.
-2. **Areas for Improvement** – Usability or design issues that hindered smooth interaction or caused confusion.
-3. **Feature Suggestions** – New features or enhancements proposed by participants to better support their needs.
+- **Positive Feedback** – Elements that met user needs or expectations, such as collaboration features, large-text mode, and voice input, which align with the project’s aim of supporting independent task management while enabling cooperation between caregivers and memory-impaired users.
+- **Areas for Improvement** – Usability or design issues that hinder smooth interaction or create confusion. Examples include unclear privacy controls, visually cluttered screens, and challenges with voice input or contact management.
+- **Feature Suggestions** – Proposed new features or enhancements, including more flexible reminders, broader care coordination tools, and health-related tracking.
 
 ## Key Insights
 
-- **Collaboration and Support** – Both persona groups valued features that facilitated collaboration between care receivers and caregivers, such as shared notes and coordinated task management.
-- **Tutorial and Guidance** – Onboarding content was appreciated when concise and role-specific, though some participants suggested refinements to improve clarity and relevance.
-- **Privacy and Autonomy** – Privacy concerns were frequent, especially regarding location tracking and shared information. Ensuring user control over data sharing was seen as critical.
-- **Interface Usability** – Navigation complexity, small touch targets, and hard-to-discover buttons (e.g., save/confirm in the top corner) were recurring issues.
-- **Accessibility** – Calls were made for larger text, clearer icons, and alternative input modes (e.g., voice commands) to accommodate varied abilities.
+- **Collaboration as a Core Strength** – Both persona groups valued features that enabled activity coordination and information sharing, reinforcing the importance of maintaining and refining these functions.
+- **Privacy and Autonomy Concerns** – Memory-impaired personas often raised concerns about monitoring, especially around location sharing. While the app allows these features to be disabled, this control was not obvious during onboarding. Future iterations should make privacy settings easier to find and understand.
+- **Visual Clarity and Simplification** – Some screens felt visually busy or contained unnecessary elements. Layouts should be streamlined and visual hierarchy clarified to reduce cognitive load.
+- **Voice and Communication Challenges** – Users experienced difficulty with voice input and contact setup, indicating the need for better error handling, clearer feedback, and simplified workflows.
+- **Feature Expansion Opportunities** – Suggestions included routine templates, shared calendars, and health monitoring. While not all will be implemented immediately, they inform long-term development priorities.
 
 ## Access Full Analysis
 
 The **full code analysis** contains:
 
-- All codes with their definitions.
+- All subcategories and codes with their definitions.
 - Frequency counts for each persona group.
-- Representative supporting quotes for every code.
+- Representative supporting quotes for selected findings.
 
 You can view the complete analysis here: [Full Code Analysis](./full_code_analysis.md)

@@ -2,187 +2,413 @@
 
 This document contains three main sections. You can jump to each section using the links below:
 
-1. [Themes and Codes](#themes-and-codes)  
-   Summary of identified themes and their associated codes, with definitions.
+1. [Full Code List](#full-code-list)  
+   Complete list of all identified codes with definitions, categories, and subcategories.
 
-2. [Codes and Supporting Quotes](#codes-and-supporting-quotes)  
-   Each code listed with representative supporting quotes from the evaluation.
+2. [Code Frequency by Persona Group](#code-frequency-by-persona-group)  
+   Occurrence counts of each code for memory-impaired personas and caregiver personas.
 
-3. [Code Frequency Statistics](#code-frequency-statistics)  
-   Counts of how many times each code was identified across all evaluations.
+3. [Subcategory Frequency Summary](#subcategory-frequency-summary)  
+   Aggregated code counts by subcategory for each persona group, with rankings within their category.
 
-## Themes and Codes
+4. [Codes and Supporting Quotes](#codes-and-supporting-quotes)
+   A complete list of all identified codes, including their definitions, associated theme and subcategory, and representative supporting quotes from the evaluation transcripts.
+   Quotes are selected to illustrate the typical meaning or usage of each code, and may come from either memory-impaired personas or caregiver personas.
 
-| Code                                   | Theme                 | Subgroup                | Definition                                                         |
-| -------------------------------------- | --------------------- | ----------------------- | ------------------------------------------------------------------ |
-| PF_BALANCED_MONITORING                 | Positive Feedback     | Caregiving & Monitoring | Relates to monitoring user activities, safety, or progress.        |
-| PF_COMPREHENSIVE_TRACKING              | Positive Feedback     | Caregiving & Monitoring | General feedback or suggestion based on evaluation findings.       |
-| PF_REAL_TIME_MONITORING                | Positive Feedback     | Caregiving & Monitoring | Relates to monitoring user activities, safety, or progress.        |
-| PF_POSITIVE_REMINDERS                  | Positive Feedback     | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| PF_SHARED_NOTES_USEFUL                 | Positive Feedback     | Family & Collaboration  | Relates to notes or information sharing.                           |
-| PF_COLLABORATION_FEELING               | Positive Feedback     | Family & Collaboration  | General feedback or suggestion based on evaluation findings.       |
-| PF_FAMILY_CAREGIVING_BALANCE           | Positive Feedback     | Family & Collaboration  | General feedback or suggestion based on evaluation findings.       |
-| PF_FAMILY_NETWORK_BENEFITS             | Positive Feedback     | Family & Collaboration  | General feedback or suggestion based on evaluation findings.       |
-| PF_ACTIVITY_LOGS_USEFUL                | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_BURDEN_REDUCTION                    | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_TRUSTED_CAREGIVER_RELATIONSHIP      | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_COGNITIVE_LOAD_REDUCTION            | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_NOTIFICATION_SUCCESS                | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_CAREGIVER_SUPPORT                   | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_FEATURE_BALANCE                     | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_BALANCED_CAREGIVING                 | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_APPROPRIATE_USE_CASES               | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_SYSTEM_INTEGRATION                  | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_CONNECT_LAYOUT_GOOD                 | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_SIMPLICITY_COMPLEXITY_BALANCE       | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_WORRY_TO_CONFIDENCE                 | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_MEMORY_SUPPORT                      | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_EMOTIONAL_SUPPORT                   | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_ACCESSIBILITY                       | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_ANXIETY_REDUCTION                   | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_COGNITIVE_SUPPORT                   | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_FAMILIAR_METAPHOR                   | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_WORK_LIFE_BALANCE                   | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_MOBILE_REASSURANCE                  | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_DEMENTIA_SUPPORT                    | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_ORGANIZATION_EFFECTIVE              | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_APPROPRIATE_RADIUS                  | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_BALANCED_INVOLVEMENT                | Positive Feedback     | General                 | General feedback or suggestion based on evaluation findings.       |
-| PF_HEALTH_CONDITION_SUPPORT            | Positive Feedback     | Health & Wellbeing      | Relates to health monitoring or wellbeing tracking.                |
-| PF_CLEAR_TASK_DISPLAY                  | Positive Feedback     | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| PF_UI_WORKFLOW_UNCLEAR                 | Positive Feedback     | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| PF_TUTORIAL_HELPFUL                    | Positive Feedback     | Learning & Guidance     | Relates to tutorials, onboarding, or guidance material.            |
-| PF_LOCATION_SAFETY                     | Positive Feedback     | Safety & Emergency      | Relates to safety features, emergency response, or monitoring.     |
-| PF_INDEPENDENCE_SAFETY_BALANCE         | Positive Feedback     | Safety & Emergency      | Relates to safety features, emergency response, or monitoring.     |
-| PF_CONTACT_ACCESS                      | Positive Feedback     | Voice & Communication   | General feedback or suggestion based on evaluation findings.       |
-| PF_COMMUNICATION_BALANCE               | Positive Feedback     | Voice & Communication   | General feedback or suggestion based on evaluation findings.       |
-| FS_GENTLE_MONITORING                   | Feature Suggestions   | Caregiving & Monitoring | Relates to monitoring user activities, safety, or progress.        |
-| FS_MEAL_TRACKING_NEEDED                | Feature Suggestions   | Caregiving & Monitoring | General feedback or suggestion based on evaluation findings.       |
-| FS_MOVEMENT_PATTERNS                   | Feature Suggestions   | Caregiving & Monitoring | General feedback or suggestion based on evaluation findings.       |
-| FS_PATTERN_RECOGNITION                 | Feature Suggestions   | Caregiving & Monitoring | General feedback or suggestion based on evaluation findings.       |
-| FS_WELLBEING_MONITORING                | Feature Suggestions   | Caregiving & Monitoring | Relates to monitoring user activities, safety, or progress.        |
-| FS_WELLNESS_MONITORING                 | Feature Suggestions   | Caregiving & Monitoring | Relates to monitoring user activities, safety, or progress.        |
-| FS_PASSIVE_MONITORING                  | Feature Suggestions   | Caregiving & Monitoring | Relates to monitoring user activities, safety, or progress.        |
-| FS_SELECTIVE_FEATURE_USE               | Feature Suggestions   | Customization & Control | General feedback or suggestion based on evaluation findings.       |
-| FS_SELECTIVE_SHARING                   | Feature Suggestions   | Customization & Control | General feedback or suggestion based on evaluation findings.       |
-| FS_STAGE_APPROPRIATE_FEATURES          | Feature Suggestions   | Customization & Control | General feedback or suggestion based on evaluation findings.       |
-| FS_CUSTOMIZABLE_ALERTS                 | Feature Suggestions   | Customization & Control | Relates to customization of features or settings.                  |
-| FS_CALENDAR_REMINDERS                  | Feature Suggestions   | Daily Life Support      | Relates to calendar events, reminders, or scheduling.              |
-| FS_SIMPLE_REMINDERS                    | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_LOCATION_BASED_REMINDERS            | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_ROUTINE_TEMPLATES                   | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_CALENDAR_INTEGRATION                | Feature Suggestions   | Daily Life Support      | Relates to calendar events, reminders, or scheduling.              |
-| FS_ROUTINE_DEVIATION_DETECTION         | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_ROUTINE_TRACKING                    | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_SHARED_CALENDAR                     | Feature Suggestions   | Daily Life Support      | Relates to calendar events, reminders, or scheduling.              |
-| FS_DAILY_CHECKIN_NEEDED                | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_DAILY_COORDINATION                  | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_HYDRATION_REMINDERS                 | Feature Suggestions   | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| FS_MULTIMEDIA_NOTES                    | Feature Suggestions   | Family & Collaboration  | Relates to notes or information sharing.                           |
-| FS_FAMILY_SUMMARY                      | Feature Suggestions   | Family & Collaboration  | General feedback or suggestion based on evaluation findings.       |
-| FS_ACCESSIBILITY                       | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_APPOINTMENT                         | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_MULTIPLE_CAREGIVERS                 | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_CALLING_IMPROVEMENT_NEEDED          | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_APPOINTMENT_SHARING                 | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_SMART_HOME_INTEGRATION              | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_AUTOMATED_ALERTS                    | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_SMART_FEATURES_NEEDED               | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_MAP_IMPROVEMENTS                    | Feature Suggestions   | General                 | General feedback or suggestion based on evaluation findings.       |
-| FS_MOOD_TRACKING                       | Feature Suggestions   | Health & Wellbeing      | General feedback or suggestion based on evaluation findings.       |
-| FS_MEDICATION_TRACKING                 | Feature Suggestions   | Health & Wellbeing      | General feedback or suggestion based on evaluation findings.       |
-| FS_HEALTHCARE_INTEGRATION              | Feature Suggestions   | Health & Wellbeing      | Relates to health monitoring or wellbeing tracking.                |
-| FS_MEDICAL_COORDINATION                | Feature Suggestions   | Health & Wellbeing      | Relates to medical features or integrations.                       |
-| FS_MEDICAL_DATA_SHARING                | Feature Suggestions   | Health & Wellbeing      | Relates to medical features or integrations.                       |
-| FS_HEALTHCARE_COORDINATION             | Feature Suggestions   | Health & Wellbeing      | Relates to health monitoring or wellbeing tracking.                |
-| FS_HEALTH_MONITORING                   | Feature Suggestions   | Health & Wellbeing      | Relates to health monitoring or wellbeing tracking.                |
-| FS_QUICK_MESSAGING                     | Feature Suggestions   | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| FS_HANDS_ON_GUIDANCE_NEEDED            | Feature Suggestions   | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| FS_MEDICATION_VISUAL_AID               | Feature Suggestions   | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| FS_QUICK_ACCESS_NEEDED                 | Feature Suggestions   | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| FS_TUTORIAL_IMPROVEMENT                | Feature Suggestions   | Learning & Guidance     | Relates to tutorials, onboarding, or guidance material.            |
-| FS_CAREGIVER_TUTORIALS_NEEDED          | Feature Suggestions   | Learning & Guidance     | Relates to tutorials, onboarding, or guidance material.            |
-| FS_ENHANCEMENT_NOT_CONTROL             | Feature Suggestions   | Privacy & Autonomy      | General feedback or suggestion based on evaluation findings.       |
-| FS_EMERGENCY_FEATURES                  | Feature Suggestions   | Safety & Emergency      | General feedback or suggestion based on evaluation findings.       |
-| FS_FALL_DETECTION                      | Feature Suggestions   | Safety & Emergency      | General feedback or suggestion based on evaluation findings.       |
-| FS_INTEGRATED_COMMUNICATION            | Feature Suggestions   | Voice & Communication   | General feedback or suggestion based on evaluation findings.       |
-| FS_VOICE_MESSAGE_AND_NOTES             | Feature Suggestions   | Voice & Communication   | Relates to voice interaction, commands, or communication features. |
-| AFI_REAL_TIME_MONITORING               | Areas for Improvement | Caregiving & Monitoring | Relates to monitoring user activities, safety, or progress.        |
-| AFI_PROGRESSIVE_FEATURES               | Areas for Improvement | Customization & Control | General feedback or suggestion based on evaluation findings.       |
-| AFI_ROUTINE_UNDERSTANDING              | Areas for Improvement | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| AFI_DAILY_LIFE_AWARENESS               | Areas for Improvement | Daily Life Support      | General feedback or suggestion based on evaluation findings.       |
-| AFI_FAMILY_DYNAMICS_COMPLEX            | Areas for Improvement | Family & Collaboration  | General feedback or suggestion based on evaluation findings.       |
-| AFI_TECHNOLOGY_LEARNING_CURVE          | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_RELIABILITY_CONCERNS               | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_DIGNITY_PRESERVATION               | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_REMOTE_CAREGIVING                  | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_FRAMING_STRATEGY                   | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CAREGIVER_SPECIFIC_FEATURES        | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CONNECT_SCREEN_CENTRAL             | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_INTRO_SLIDES_CONCEPTUAL            | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_STRESS_CONTEXT_DESIGN              | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_DEMENTIA_CARE_ESSENTIAL            | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_COMPREHENSIVE_CARE_TOOLS           | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_MUTUAL_BENEFIT_PRINCIPLE           | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_SHARED_SPACE_CONNECTION            | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CORE_CAREGIVER_NEEDS               | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CONCEPT_VALIDATION                 | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CAREGIVER_UNDERSTANDING            | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_INITIAL_SLIDES_INSPIRING           | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_OVERWHELMING_CONCERN               | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_PRESSURE_RELIEF                    | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CAREGIVING_ESSENCE                 | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_TASK_ABANDONMENT                   | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_SOCIAL_CONNECTION                  | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CONTEXTUAL_CALLING                 | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_UNIFIED_VIEW                       | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_UNCERTAINTY_ISSUES                 | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_RESPECTFUL_USE                     | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_CRITICAL_FEATURES                  | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_SELF_DISCOVERY_CHALLENGES          | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_FEATURE_FOCUS_MISMATCH             | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_RESPECTFUL_TECHNOLOGY              | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_WORK_PEACE_OF_MIND                 | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_INTERGENERATIONAL_CONCERNS         | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_VOLUNTARY_PARTICIPATION            | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_TIMESTAMP_VALUABLE                 | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_MUTUAL_AWARENESS                   | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_COMPREHENSIVE_SOLUTION             | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_DESIGN_EMPATHY                     | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_SETTING_UNCERTAINTY                | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_EMOTIONAL_INVESTMENT_IMPORTANT     | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_BIGGEST_FEAR_ADDRESSED             | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_DISTANCE_CAREGIVING_TRANSFORMATION | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_ACCESSIBILITY_AND_COGNITIVE_LOAD   | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_DATA_PERSISTENCE_ISSUES            | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_TRUST_ISSUES                       | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_HEARING_ACCOMMODATIONS             | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_TARGET_AUDIENCE_RECOGNITION        | Areas for Improvement | General                 | General feedback or suggestion based on evaluation findings.       |
-| AFI_MEDICAL_INFO_STORAGE               | Areas for Improvement | Health & Wellbeing      | Relates to medical features or integrations.                       |
-| AFI_MEDICATION_VERIFICATION            | Areas for Improvement | Health & Wellbeing      | General feedback or suggestion based on evaluation findings.       |
-| AFI_TIME_PICKER_DIFFICULTY             | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_UI_COMPLEXITY_AND_NAVIGATION       | Areas for Improvement | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| AFI_VISUAL_FEEDBACK_AND_AID            | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_TASK_COMPLETION_DIFFICULTY         | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_BUTTON_DISCOVERABILITY             | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_SAFEZONE_VISUALIZATION             | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_SAVE_BUTTON_ISSUES                 | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_GUIDANCE_GAP                       | Areas for Improvement | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| AFI_QUICK_CAPTURE                      | Areas for Improvement | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| AFI_MARKETING_VS_GUIDANCE              | Areas for Improvement | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| AFI_GENUINE_CAREGIVING_NEED            | Areas for Improvement | Interface & Usability   | Relates to interface design, complexity, or navigation usability.  |
-| AFI_TEACHER_WORKFLOW                   | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_WORKFLOW_EFFICIENCY                | Areas for Improvement | Interface & Usability   | General feedback or suggestion based on evaluation findings.       |
-| AFI_ROLE_SPECIFIC_TUTORIALS            | Areas for Improvement | Learning & Guidance     | Relates to tutorials, onboarding, or guidance material.            |
-| AFI_PRIVACY_AUTONOMY_CONTROL           | Areas for Improvement | Privacy & Autonomy      | Concerns about privacy, autonomy, and control over shared data.    |
-| AFI_SAFEZONE_SETUP_DIFFICULTY          | Areas for Improvement | Safety & Emergency      | General feedback or suggestion based on evaluation findings.       |
-| AFI_SAFETY_CONSIDERATION               | Areas for Improvement | Safety & Emergency      | Relates to safety features, emergency response, or monitoring.     |
-| AFI_SAFETY_FEATURES                    | Areas for Improvement | Safety & Emergency      | Relates to safety features, emergency response, or monitoring.     |
-| AFI_VOICE_INTERACTION                  | Areas for Improvement | Voice & Communication   | Relates to voice interaction, commands, or communication features. |
-| AFI_EXISTING_COMMUNICATION_SUFFICIENT  | Areas for Improvement | Voice & Communication   | General feedback or suggestion based on evaluation findings.       |
-| AFI_CONTACT_SETUP_DIFFICULTY           | Areas for Improvement | Voice & Communication   | General feedback or suggestion based on evaluation findings.       |
-| AFI_EMERGENCY_COMMUNICATION            | Areas for Improvement | Voice & Communication   | General feedback or suggestion based on evaluation findings.       |
-| AFI_STREAMLINED_COMMUNICATION          | Areas for Improvement | Voice & Communication   | General feedback or suggestion based on evaluation findings.       |
+## Full Code List
+
+| Code                                   | Category              | Subcategory                                             | Definition                                                         |
+| -------------------------------------- | --------------------- | ------------------------------------------------------- | ------------------------------------------------------------------ |
+| PF_BALANCED_MONITORING                 | Positive Feedback     | Caregiving & Monitoring                                 | Relates to monitoring user activities, safety, or progress.        |
+| PF_COMPREHENSIVE_TRACKING              | Positive Feedback     | Caregiving & Monitoring                                 | General feedback or suggestion based on evaluation findings.       |
+| PF_REAL_TIME_MONITORING                | Positive Feedback     | Visibility of System Status                             | Relates to monitoring user activities, safety, or progress.        |
+| PF_POSITIVE_REMINDERS                  | Positive Feedback     | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| PF_SHARED_NOTES_USEFUL                 | Positive Feedback     | Family & Collaboration                                  | Relates to notes or information sharing.                           |
+| PF_COLLABORATION_FEELING               | Positive Feedback     | Family & Collaboration                                  | General feedback or suggestion based on evaluation findings.       |
+| PF_FAMILY_CAREGIVING_BALANCE           | Positive Feedback     | Family & Collaboration                                  | General feedback or suggestion based on evaluation findings.       |
+| PF_FAMILY_NETWORK_BENEFITS             | Positive Feedback     | Family & Collaboration                                  | General feedback or suggestion based on evaluation findings.       |
+| PF_ACTIVITY_LOGS_USEFUL                | Positive Feedback     | Visibility of System Status                             | General feedback or suggestion based on evaluation findings.       |
+| PF_BURDEN_REDUCTION                    | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_TRUSTED_CAREGIVER_RELATIONSHIP      | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_COGNITIVE_LOAD_REDUCTION            | Positive Feedback     | Recognition Rather than Recall                          | General feedback or suggestion based on evaluation findings.       |
+| PF_NOTIFICATION_SUCCESS                | Positive Feedback     | Visibility of System Status                             | General feedback or suggestion based on evaluation findings.       |
+| PF_CAREGIVER_SUPPORT                   | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_FEATURE_BALANCE                     | Positive Feedback     | Flexibility and Efficiency of Use                       | General feedback or suggestion based on evaluation findings.       |
+| PF_BALANCED_CAREGIVING                 | Positive Feedback     | User Control and Freedom                                | General feedback or suggestion based on evaluation findings.       |
+| PF_APPROPRIATE_USE_CASES               | Positive Feedback     | Match Between the System and the Real World             | General feedback or suggestion based on evaluation findings.       |
+| PF_SYSTEM_INTEGRATION                  | Positive Feedback     | Consistency and Standards                               | General feedback or suggestion based on evaluation findings.       |
+| PF_CONNECT_LAYOUT_GOOD                 | Positive Feedback     | Consistency and Standards                               | General feedback or suggestion based on evaluation findings.       |
+| PF_SIMPLICITY_COMPLEXITY_BALANCE       | Positive Feedback     | Flexibility and Efficiency of Use                       | General feedback or suggestion based on evaluation findings.       |
+| PF_WORRY_TO_CONFIDENCE                 | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_MEMORY_SUPPORT                      | Positive Feedback     | Recognition Rather than Recall                          | General feedback or suggestion based on evaluation findings.       |
+| PF_EMOTIONAL_SUPPORT                   | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_ACCESSIBILITY                       | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_ANXIETY_REDUCTION                   | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_COGNITIVE_SUPPORT                   | Positive Feedback     | Recognition Rather than Recall                          | General feedback or suggestion based on evaluation findings.       |
+| PF_FAMILIAR_METAPHOR                   | Positive Feedback     | Match Between the System and the Real World             | General feedback or suggestion based on evaluation findings.       |
+| PF_WORK_LIFE_BALANCE                   | Positive Feedback     | Flexibility and Efficiency of Use                       | General feedback or suggestion based on evaluation findings.       |
+| PF_MOBILE_REASSURANCE                  | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_DEMENTIA_SUPPORT                    | Positive Feedback     | General Support                                         | General feedback or suggestion based on evaluation findings.       |
+| PF_ORGANIZATION_EFFECTIVE              | Positive Feedback     | Aesthetic and Minimalist Design                         | General feedback or suggestion based on evaluation findings.       |
+| PF_APPROPRIATE_RADIUS                  | Positive Feedback     | Error Prevention                                        | General feedback or suggestion based on evaluation findings.       |
+| PF_BALANCED_INVOLVEMENT                | Positive Feedback     | User Control and Freedom                                | General feedback or suggestion based on evaluation findings.       |
+| PF_HEALTH_CONDITION_SUPPORT            | Positive Feedback     | Health & Wellbeing                                      | Relates to health monitoring or wellbeing tracking.                |
+| PF_CLEAR_TASK_DISPLAY                  | Positive Feedback     | Recognition Rather than Recall                          | General feedback or suggestion based on evaluation findings.       |
+| PF_UI_WORKFLOW_UNCLEAR                 | Positive Feedback     | Aesthetic and Minimalist Design                         | Relates to interface design, complexity, or navigation usability.  |
+| PF_TUTORIAL_HELPFUL                    | Positive Feedback     | Help and Documentation                                  | Relates to tutorials, onboarding, or guidance material.            |
+| PF_LOCATION_SAFETY                     | Positive Feedback     | Safety & Emergency                                      | Relates to safety features, emergency response, or monitoring.     |
+| PF_INDEPENDENCE_SAFETY_BALANCE         | Positive Feedback     | User Control and Freedom                                | Relates to safety features, emergency response, or monitoring.     |
+| PF_CONTACT_ACCESS                      | Positive Feedback     | Voice & Communication                                   | General feedback or suggestion based on evaluation findings.       |
+| PF_COMMUNICATION_BALANCE               | Positive Feedback     | Voice & Communication                                   | General feedback or suggestion based on evaluation findings.       |
+| FS_GENTLE_MONITORING                   | Feature Suggestions   | Caregiving & Monitoring                                 | Relates to monitoring user activities, safety, or progress.        |
+| FS_MEAL_TRACKING_NEEDED                | Feature Suggestions   | Caregiving & Monitoring                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_MOVEMENT_PATTERNS                   | Feature Suggestions   | Caregiving & Monitoring                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_PATTERN_RECOGNITION                 | Feature Suggestions   | Caregiving & Monitoring                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_WELLBEING_MONITORING                | Feature Suggestions   | Caregiving & Monitoring                                 | Relates to monitoring user activities, safety, or progress.        |
+| FS_WELLNESS_MONITORING                 | Feature Suggestions   | Caregiving & Monitoring                                 | Relates to monitoring user activities, safety, or progress.        |
+| FS_PASSIVE_MONITORING                  | Feature Suggestions   | Caregiving & Monitoring                                 | Relates to monitoring user activities, safety, or progress.        |
+| FS_SELECTIVE_FEATURE_USE               | Feature Suggestions   | Customization & Control                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_SELECTIVE_SHARING                   | Feature Suggestions   | Customization & Control                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_STAGE_APPROPRIATE_FEATURES          | Feature Suggestions   | Customization & Control                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_CUSTOMIZABLE_ALERTS                 | Feature Suggestions   | Customization & Control                                 | Relates to customization of features or settings.                  |
+| FS_CALENDAR_REMINDERS                  | Feature Suggestions   | Daily Life Support                                      | Relates to calendar events, reminders, or scheduling.              |
+| FS_SIMPLE_REMINDERS                    | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_LOCATION_BASED_REMINDERS            | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_ROUTINE_TEMPLATES                   | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_CALENDAR_INTEGRATION                | Feature Suggestions   | Daily Life Support                                      | Relates to calendar events, reminders, or scheduling.              |
+| FS_ROUTINE_DEVIATION_DETECTION         | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_ROUTINE_TRACKING                    | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_SHARED_CALENDAR                     | Feature Suggestions   | Daily Life Support                                      | Relates to calendar events, reminders, or scheduling.              |
+| FS_DAILY_CHECKIN_NEEDED                | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_DAILY_COORDINATION                  | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_HYDRATION_REMINDERS                 | Feature Suggestions   | Daily Life Support                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_MULTIMEDIA_NOTES                    | Feature Suggestions   | Family & Collaboration                                  | Relates to notes or information sharing.                           |
+| FS_FAMILY_SUMMARY                      | Feature Suggestions   | Family & Collaboration                                  | General feedback or suggestion based on evaluation findings.       |
+| FS_ACCESSIBILITY                       | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_APPOINTMENT                         | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_MULTIPLE_CAREGIVERS                 | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_CALLING_IMPROVEMENT_NEEDED          | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_APPOINTMENT_SHARING                 | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_SMART_HOME_INTEGRATION              | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_AUTOMATED_ALERTS                    | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_SMART_FEATURES_NEEDED               | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_MAP_IMPROVEMENTS                    | Feature Suggestions   | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| FS_MOOD_TRACKING                       | Feature Suggestions   | Health & Wellbeing                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_MEDICATION_TRACKING                 | Feature Suggestions   | Health & Wellbeing                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_HEALTHCARE_INTEGRATION              | Feature Suggestions   | Health & Wellbeing                                      | Relates to health monitoring or wellbeing tracking.                |
+| FS_MEDICAL_COORDINATION                | Feature Suggestions   | Health & Wellbeing                                      | Relates to medical features or integrations.                       |
+| FS_MEDICAL_DATA_SHARING                | Feature Suggestions   | Health & Wellbeing                                      | Relates to medical features or integrations.                       |
+| FS_HEALTHCARE_COORDINATION             | Feature Suggestions   | Health & Wellbeing                                      | Relates to health monitoring or wellbeing tracking.                |
+| FS_HEALTH_MONITORING                   | Feature Suggestions   | Health & Wellbeing                                      | Relates to health monitoring or wellbeing tracking.                |
+| FS_QUICK_MESSAGING                     | Feature Suggestions   | Interface & Usability                                   | Relates to interface design, complexity, or navigation usability.  |
+| FS_HANDS_ON_GUIDANCE_NEEDED            | Feature Suggestions   | Interface & Usability                                   | Relates to interface design, complexity, or navigation usability.  |
+| FS_MEDICATION_VISUAL_AID               | Feature Suggestions   | Interface & Usability                                   | General feedback or suggestion based on evaluation findings.       |
+| FS_QUICK_ACCESS_NEEDED                 | Feature Suggestions   | Interface & Usability                                   | Relates to interface design, complexity, or navigation usability.  |
+| FS_TUTORIAL_IMPROVEMENT                | Feature Suggestions   | Learning & Guidance                                     | Relates to tutorials, onboarding, or guidance material.            |
+| FS_CAREGIVER_TUTORIALS_NEEDED          | Feature Suggestions   | Learning & Guidance                                     | Relates to tutorials, onboarding, or guidance material.            |
+| FS_ENHANCEMENT_NOT_CONTROL             | Feature Suggestions   | Privacy & Autonomy                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_EMERGENCY_FEATURES                  | Feature Suggestions   | Safety & Emergency                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_FALL_DETECTION                      | Feature Suggestions   | Safety & Emergency                                      | General feedback or suggestion based on evaluation findings.       |
+| FS_INTEGRATED_COMMUNICATION            | Feature Suggestions   | Voice & Communication                                   | General feedback or suggestion based on evaluation findings.       |
+| FS_VOICE_MESSAGE_AND_NOTES             | Feature Suggestions   | Voice & Communication                                   | Relates to voice interaction, commands, or communication features. |
+| AFI_REAL_TIME_MONITORING               | Areas for Improvement | Visibility of System Status                             | Relates to monitoring user activities, safety, or progress.        |
+| AFI_PROGRESSIVE_FEATURES               | Areas for Improvement | User Control and Freedom                                | General feedback or suggestion based on evaluation findings.       |
+| AFI_ROUTINE_UNDERSTANDING              | Areas for Improvement | Recognition Rather than Recall                          | General feedback or suggestion based on evaluation findings.       |
+| AFI_DAILY_LIFE_AWARENESS               | Areas for Improvement | Recognition Rather than Recall                          | General feedback or suggestion based on evaluation findings.       |
+| AFI_FAMILY_DYNAMICS_COMPLEX            | Areas for Improvement | Caregiving Context                                      | General feedback or suggestion based on evaluation findings.       |
+| AFI_TECHNOLOGY_LEARNING_CURVE          | Areas for Improvement | Technology & Learning                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_RELIABILITY_CONCERNS               | Areas for Improvement | Trust & Reliability                                     | General feedback or suggestion based on evaluation findings.       |
+| AFI_DIGNITY_PRESERVATION               | Areas for Improvement | Design Philosophy                                       | General feedback or suggestion based on evaluation findings.       |
+| AFI_REMOTE_CAREGIVING                  | Areas for Improvement | Caregiving Context                                      | General feedback or suggestion based on evaluation findings.       |
+| AFI_FRAMING_STRATEGY                   | Areas for Improvement | Match Between the System and the Real World             | General feedback or suggestion based on evaluation findings.       |
+| AFI_CAREGIVER_SPECIFIC_FEATURES        | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_CONNECT_SCREEN_CENTRAL             | Areas for Improvement | Consistency and Standards                               | General feedback or suggestion based on evaluation findings.       |
+| AFI_INTRO_SLIDES_CONCEPTUAL            | Areas for Improvement | Help and Documentation                                  | General feedback or suggestion based on evaluation findings.       |
+| AFI_STRESS_CONTEXT_DESIGN              | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_DEMENTIA_CARE_ESSENTIAL            | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_COMPREHENSIVE_CARE_TOOLS           | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_MUTUAL_BENEFIT_PRINCIPLE           | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_SHARED_SPACE_CONNECTION            | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_CORE_CAREGIVER_NEEDS               | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_CONCEPT_VALIDATION                 | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_CAREGIVER_UNDERSTANDING            | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_INITIAL_SLIDES_INSPIRING           | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_OVERWHELMING_CONCERN               | Areas for Improvement | Aesthetic and Minimalist Design                         | General feedback or suggestion based on evaluation findings.       |
+| AFI_PRESSURE_RELIEF                    | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_CAREGIVING_ESSENCE                 | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_TASK_ABANDONMENT                   | Areas for Improvement | Interface & Usability                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_SOCIAL_CONNECTION                  | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_CONTEXTUAL_CALLING                 | Areas for Improvement | Match Between the System and the Real World             | General feedback or suggestion based on evaluation findings.       |
+| AFI_UNIFIED_VIEW                       | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_UNCERTAINTY_ISSUES                 | Areas for Improvement | Help Users Recognize, Diagnose, and Recover from Errors | General feedback or suggestion based on evaluation findings.       |
+| AFI_RESPECTFUL_USE                     | Areas for Improvement | Design Philosophy                                       | General feedback or suggestion based on evaluation findings.       |
+| AFI_CRITICAL_FEATURES                  | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_SELF_DISCOVERY_CHALLENGES          | Areas for Improvement | Interface & Usability                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_FEATURE_FOCUS_MISMATCH             | Areas for Improvement | Aesthetic and Minimalist Design                         | General feedback or suggestion based on evaluation findings.       |
+| AFI_RESPECTFUL_TECHNOLOGY              | Areas for Improvement | Design Philosophy                                       | General feedback or suggestion based on evaluation findings.       |
+| AFI_WORK_PEACE_OF_MIND                 | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_INTERGENERATIONAL_CONCERNS         | Areas for Improvement | Caregiving Context                                      | General feedback or suggestion based on evaluation findings.       |
+| AFI_VOLUNTARY_PARTICIPATION            | Areas for Improvement | User Control and Freedom                                | General feedback or suggestion based on evaluation findings.       |
+| AFI_TIMESTAMP_VALUABLE                 | Areas for Improvement | Visibility of System Status                             | General feedback or suggestion based on evaluation findings.       |
+| AFI_MUTUAL_AWARENESS                   | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_COMPREHENSIVE_SOLUTION             | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_DESIGN_EMPATHY                     | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_SETTING_UNCERTAINTY                | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_EMOTIONAL_INVESTMENT_IMPORTANT     | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_BIGGEST_FEAR_ADDRESSED             | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_DISTANCE_CAREGIVING_TRANSFORMATION | Areas for Improvement | Caregiving Context                                      | General feedback or suggestion based on evaluation findings.       |
+| AFI_ACCESSIBILITY_AND_COGNITIVE_LOAD   | Areas for Improvement | Recognition Rather than Recall                          | General feedback or suggestion based on evaluation findings.       |
+| AFI_DATA_PERSISTENCE_ISSUES            | Areas for Improvement | Visibility of System Status                             | General feedback or suggestion based on evaluation findings.       |
+| AFI_TRUST_ISSUES                       | Areas for Improvement | Trust & Reliability                                     | General feedback or suggestion based on evaluation findings.       |
+| AFI_HEARING_ACCOMMODATIONS             | Areas for Improvement | Technology & Learning                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_TARGET_AUDIENCE_RECOGNITION        | Areas for Improvement | General                                                 | General feedback or suggestion based on evaluation findings.       |
+| AFI_MEDICAL_INFO_STORAGE               | Areas for Improvement | Health & Wellbeing                                      | Relates to medical features or integrations.                       |
+| AFI_MEDICATION_VERIFICATION            | Areas for Improvement | Health & Wellbeing                                      | General feedback or suggestion based on evaluation findings.       |
+| AFI_TIME_PICKER_DIFFICULTY             | Areas for Improvement | Error Prevention                                        | General feedback or suggestion based on evaluation findings.       |
+| AFI_UI_COMPLEXITY_AND_NAVIGATION       | Areas for Improvement | Aesthetic and Minimalist Design                         | Relates to interface design, complexity, or navigation usability.  |
+| AFI_VISUAL_FEEDBACK_AND_AID            | Areas for Improvement | Interface & Usability                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_TASK_COMPLETION_DIFFICULTY         | Areas for Improvement | Help Users Recognize, Diagnose, and Recover from Errors | General feedback or suggestion based on evaluation findings.       |
+| AFI_BUTTON_DISCOVERABILITY             | Areas for Improvement | Interface & Usability                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_SAFEZONE_VISUALIZATION             | Areas for Improvement | Interface & Usability                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_SAVE_BUTTON_ISSUES                 | Areas for Improvement | Help Users Recognize, Diagnose, and Recover from Errors | General feedback or suggestion based on evaluation findings.       |
+| AFI_GUIDANCE_GAP                       | Areas for Improvement | Help and Documentation                                  | Relates to interface design, complexity, or navigation usability.  |
+| AFI_QUICK_CAPTURE                      | Areas for Improvement | Flexibility and Efficiency of Use                       | Relates to interface design, complexity, or navigation usability.  |
+| AFI_MARKETING_VS_GUIDANCE              | Areas for Improvement | Help and Documentation                                  | Relates to interface design, complexity, or navigation usability.  |
+| AFI_TEACHER_WORKFLOW                   | Areas for Improvement | Flexibility and Efficiency of Use                       | General feedback or suggestion based on evaluation findings.       |
+| AFI_WORKFLOW_EFFICIENCY                | Areas for Improvement | Flexibility and Efficiency of Use                       | General feedback or suggestion based on evaluation findings.       |
+| AFI_ROLE_SPECIFIC_TUTORIALS            | Areas for Improvement | Help and Documentation                                  | Relates to tutorials, onboarding, or guidance material.            |
+| AFI_PRIVACY_AUTONOMY_CONTROL           | Areas for Improvement | User Control and Freedom                                | Concerns about privacy, autonomy, and control over shared data.    |
+| AFI_SAFEZONE_SETUP_DIFFICULTY          | Areas for Improvement | Error Prevention                                        | General feedback or suggestion based on evaluation findings.       |
+| AFI_SAFETY_CONSIDERATION               | Areas for Improvement | Safety & Emergency                                      | Relates to safety features, emergency response, or monitoring.     |
+| AFI_SAFETY_FEATURES                    | Areas for Improvement | Safety & Emergency                                      | Relates to safety features, emergency response, or monitoring.     |
+| AFI_VOICE_INTERACTION                  | Areas for Improvement | Voice & Communication                                   | Relates to voice interaction, commands, or communication features. |
+| AFI_EXISTING_COMMUNICATION_SUFFICIENT  | Areas for Improvement | Voice & Communication                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_CONTACT_SETUP_DIFFICULTY           | Areas for Improvement | Error Prevention                                        | General feedback or suggestion based on evaluation findings.       |
+| AFI_EMERGENCY_COMMUNICATION            | Areas for Improvement | Voice & Communication                                   | General feedback or suggestion based on evaluation findings.       |
+| AFI_STREAMLINED_COMMUNICATION          | Areas for Improvement | Voice & Communication                                   | General feedback or suggestion based on evaluation findings.       |
+
+## Code Frequency by Persona Group
+
+| Code                                   | Subcategory                                             | Category              | Carereceiver | Caregiver |
+| -------------------------------------- | ------------------------------------------------------- | --------------------- | ------------ | --------- |
+| AFI_PRIVACY_AUTONOMY_CONTROL           | User Control and Freedom                                | Areas for Improvement | 35           | 20        |
+| AFI_UI_COMPLEXITY_AND_NAVIGATION       | Aesthetic and Minimalist Design                         | Areas for Improvement | 14           | 9         |
+| PF_COLLABORATION_FEELING               | Family & Collaboration                                  | Positive Feedback     | 12           | 21        |
+| PF_TUTORIAL_HELPFUL                    | Help and Documentation                                  | Positive Feedback     | 12           | 8         |
+| PF_MEMORY_SUPPORT                      | Recognition Rather than Recall                          | Positive Feedback     | 11           | 5         |
+| AFI_TIME_PICKER_DIFFICULTY             | Error Prevention                                        | Areas for Improvement | 11           | 0         |
+| PF_SHARED_NOTES_USEFUL                 | Family & Collaboration                                  | Positive Feedback     | 10           | 6         |
+| AFI_VOICE_INTERACTION                  | Voice & Communication                                   | Areas for Improvement | 10           | 1         |
+| AFI_TASK_COMPLETION_DIFFICULTY         | Help Users Recognize, Diagnose, and Recover from Errors | Areas for Improvement | 7            | 0         |
+| FS_ACCESSIBILITY                       | General                                                 | Feature Suggestions   | 6            | 9         |
+| FS_TUTORIAL_IMPROVEMENT                | Learning & Guidance                                     | Feature Suggestions   | 6            | 4         |
+| AFI_VISUAL_FEEDBACK_AND_AID            | Interface & Usability                                   | Areas for Improvement | 6            | 7         |
+| PF_COGNITIVE_LOAD_REDUCTION            | Recognition Rather than Recall                          | Positive Feedback     | 4            | 0         |
+| FS_EMERGENCY_FEATURES                  | Safety & Emergency                                      | Feature Suggestions   | 4            | 5         |
+| FS_MEDICATION_TRACKING                 | Health & Wellbeing                                      | Feature Suggestions   | 4            | 1         |
+| FS_MULTIMEDIA_NOTES                    | Family & Collaboration                                  | Feature Suggestions   | 3            | 1         |
+| FS_SELECTIVE_SHARING                   | Customization & Control                                 | Feature Suggestions   | 3            | 0         |
+| FS_SIMPLE_REMINDERS                    | Daily Life Support                                      | Feature Suggestions   | 3            | 0         |
+| PF_ACTIVITY_LOGS_USEFUL                | Visibility of System Status                             | Positive Feedback     | 2            | 5         |
+| PF_COGNITIVE_SUPPORT                   | Recognition Rather than Recall                          | Positive Feedback     | 2            | 1         |
+| PF_EMOTIONAL_SUPPORT                   | General Support                                         | Positive Feedback     | 2            | 0         |
+| FS_SELECTIVE_FEATURE_USE               | Customization & Control                                 | Feature Suggestions   | 2            | 0         |
+| AFI_EXISTING_COMMUNICATION_SUFFICIENT  | Voice & Communication                                   | Areas for Improvement | 2            | 0         |
+| PF_CAREGIVER_SUPPORT                   | General Support                                         | Positive Feedback     | 1            | 23        |
+| PF_ACCESSIBILITY                       | General Support                                         | Positive Feedback     | 1            | 2         |
+| PF_CLEAR_TASK_DISPLAY                  | Recognition Rather than Recall                          | Positive Feedback     | 1            | 0         |
+| PF_POSITIVE_REMINDERS                  | Daily Life Support                                      | Positive Feedback     | 1            | 0         |
+| PF_BURDEN_REDUCTION                    | General Support                                         | Positive Feedback     | 1            | 0         |
+| PF_TRUSTED_CAREGIVER_RELATIONSHIP      | General Support                                         | Positive Feedback     | 1            | 0         |
+| PF_ANXIETY_REDUCTION                   | General Support                                         | Positive Feedback     | 1            | 0         |
+| PF_CONTACT_ACCESS                      | Voice & Communication                                   | Positive Feedback     | 1            | 0         |
+| FS_VOICE_MESSAGE_AND_NOTES             | Voice & Communication                                   | Feature Suggestions   | 1            | 3         |
+| FS_GENTLE_MONITORING                   | Caregiving & Monitoring                                 | Feature Suggestions   | 1            | 1         |
+| FS_ROUTINE_TEMPLATES                   | Daily Life Support                                      | Feature Suggestions   | 1            | 1         |
+| FS_ROUTINE_DEVIATION_DETECTION         | Daily Life Support                                      | Feature Suggestions   | 1            | 1         |
+| FS_MEDICATION_VISUAL_AID               | Interface & Usability                                   | Feature Suggestions   | 1            | 1         |
+| FS_STAGE_APPROPRIATE_FEATURES          | Customization & Control                                 | Feature Suggestions   | 1            | 0         |
+| FS_CALENDAR_REMINDERS                  | Daily Life Support                                      | Feature Suggestions   | 1            | 0         |
+| FS_LOCATION_BASED_REMINDERS            | Daily Life Support                                      | Feature Suggestions   | 1            | 0         |
+| FS_CALENDAR_INTEGRATION                | Daily Life Support                                      | Feature Suggestions   | 1            | 0         |
+| FS_SMART_FEATURES_NEEDED               | General                                                 | Feature Suggestions   | 1            | 0         |
+| FS_MOOD_TRACKING                       | Health & Wellbeing                                      | Feature Suggestions   | 1            | 0         |
+| FS_INTEGRATED_COMMUNICATION            | Voice & Communication                                   | Feature Suggestions   | 1            | 0         |
+| AFI_DIGNITY_PRESERVATION               | Design Philosophy                                       | Areas for Improvement | 1            | 3         |
+| AFI_SAFETY_FEATURES                    | Safety & Emergency                                      | Areas for Improvement | 1            | 3         |
+| AFI_RELIABILITY_CONCERNS               | Trust & Reliability                                     | Areas for Improvement | 1            | 1         |
+| AFI_CONTEXTUAL_CALLING                 | Match Between the System and the Real World             | Areas for Improvement | 1            | 0         |
+| AFI_PROGRESSIVE_FEATURES               | User Control and Freedom                                | Areas for Improvement | 1            | 0         |
+| AFI_ACCESSIBILITY_AND_COGNITIVE_LOAD   | Recognition Rather than Recall                          | Areas for Improvement | 1            | 0         |
+| AFI_QUICK_CAPTURE                      | Flexibility and Efficiency of Use                       | Areas for Improvement | 1            | 0         |
+| AFI_TECHNOLOGY_LEARNING_CURVE          | Technology & Learning                                   | Areas for Improvement | 1            | 0         |
+| AFI_BUTTON_DISCOVERABILITY             | Interface & Usability                                   | Areas for Improvement | 1            | 0         |
+| AFI_TASK_ABANDONMENT                   | Interface & Usability                                   | Areas for Improvement | 1            | 0         |
+| AFI_SOCIAL_CONNECTION                  | General                                                 | Areas for Improvement | 1            | 0         |
+| AFI_UNIFIED_VIEW                       | General                                                 | Areas for Improvement | 1            | 0         |
+| AFI_SAFETY_CONSIDERATION               | Safety & Emergency                                      | Areas for Improvement | 1            | 0         |
+| PF_LOCATION_SAFETY                     | Safety & Emergency                                      | Positive Feedback     | 0            | 9         |
+| PF_NOTIFICATION_SUCCESS                | Visibility of System Status                             | Positive Feedback     | 0            | 6         |
+| PF_BALANCED_MONITORING                 | Caregiving & Monitoring                                 | Positive Feedback     | 0            | 3         |
+| PF_COMPREHENSIVE_TRACKING              | Caregiving & Monitoring                                 | Positive Feedback     | 0            | 3         |
+| PF_REAL_TIME_MONITORING                | Visibility of System Status                             | Positive Feedback     | 0            | 2         |
+| PF_BALANCED_CAREGIVING                 | User Control and Freedom                                | Positive Feedback     | 0            | 2         |
+| PF_CONNECT_LAYOUT_GOOD                 | Consistency and Standards                               | Positive Feedback     | 0            | 2         |
+| PF_APPROPRIATE_RADIUS                  | Error Prevention                                        | Positive Feedback     | 0            | 2         |
+| PF_WORK_LIFE_BALANCE                   | Flexibility and Efficiency of Use                       | Positive Feedback     | 0            | 2         |
+| PF_FAMILIAR_METAPHOR                   | Match Between the System and the Real World             | Positive Feedback     | 0            | 1         |
+| PF_APPROPRIATE_USE_CASES               | Match Between the System and the Real World             | Positive Feedback     | 0            | 1         |
+| PF_BALANCED_INVOLVEMENT                | User Control and Freedom                                | Positive Feedback     | 0            | 1         |
+| PF_INDEPENDENCE_SAFETY_BALANCE         | User Control and Freedom                                | Positive Feedback     | 0            | 1         |
+| PF_SYSTEM_INTEGRATION                  | Consistency and Standards                               | Positive Feedback     | 0            | 1         |
+| PF_FEATURE_BALANCE                     | Flexibility and Efficiency of Use                       | Positive Feedback     | 0            | 1         |
+| PF_SIMPLICITY_COMPLEXITY_BALANCE       | Flexibility and Efficiency of Use                       | Positive Feedback     | 0            | 1         |
+| PF_ORGANIZATION_EFFECTIVE              | Aesthetic and Minimalist Design                         | Positive Feedback     | 0            | 1         |
+| PF_FAMILY_CAREGIVING_BALANCE           | Family & Collaboration                                  | Positive Feedback     | 0            | 1         |
+| PF_FAMILY_NETWORK_BENEFITS             | Family & Collaboration                                  | Positive Feedback     | 0            | 1         |
+| PF_WORRY_TO_CONFIDENCE                 | General Support                                         | Positive Feedback     | 0            | 1         |
+| PF_MOBILE_REASSURANCE                  | General Support                                         | Positive Feedback     | 0            | 1         |
+| PF_DEMENTIA_SUPPORT                    | General Support                                         | Positive Feedback     | 0            | 1         |
+| PF_HEALTH_CONDITION_SUPPORT            | Health & Wellbeing                                      | Positive Feedback     | 0            | 1         |
+| PF_COMMUNICATION_BALANCE               | Voice & Communication                                   | Positive Feedback     | 0            | 1         |
+| PF_UI_WORKFLOW_UNCLEAR                 | Aesthetic and Minimalist Design                         | Positive Feedback     | 0            | 1         |
+| FS_DAILY_COORDINATION                  | Daily Life Support                                      | Feature Suggestions   | 0            | 3         |
+| FS_MULTIPLE_CAREGIVERS                 | General                                                 | Feature Suggestions   | 0            | 3         |
+| FS_ROUTINE_TRACKING                    | Daily Life Support                                      | Feature Suggestions   | 0            | 2         |
+| FS_APPOINTMENT                         | General                                                 | Feature Suggestions   | 0            | 2         |
+| FS_HEALTHCARE_INTEGRATION              | Health & Wellbeing                                      | Feature Suggestions   | 0            | 2         |
+| FS_MEDICAL_COORDINATION                | Health & Wellbeing                                      | Feature Suggestions   | 0            | 2         |
+| FS_CAREGIVER_TUTORIALS_NEEDED          | Learning & Guidance                                     | Feature Suggestions   | 0            | 2         |
+| FS_MEAL_TRACKING_NEEDED                | Caregiving & Monitoring                                 | Feature Suggestions   | 0            | 1         |
+| FS_MOVEMENT_PATTERNS                   | Caregiving & Monitoring                                 | Feature Suggestions   | 0            | 1         |
+| FS_PATTERN_RECOGNITION                 | Caregiving & Monitoring                                 | Feature Suggestions   | 0            | 1         |
+| FS_WELLBEING_MONITORING                | Caregiving & Monitoring                                 | Feature Suggestions   | 0            | 1         |
+| FS_WELLNESS_MONITORING                 | Caregiving & Monitoring                                 | Feature Suggestions   | 0            | 1         |
+| FS_PASSIVE_MONITORING                  | Caregiving & Monitoring                                 | Feature Suggestions   | 0            | 1         |
+| FS_CUSTOMIZABLE_ALERTS                 | Customization & Control                                 | Feature Suggestions   | 0            | 1         |
+| FS_SHARED_CALENDAR                     | Daily Life Support                                      | Feature Suggestions   | 0            | 1         |
+| FS_DAILY_CHECKIN_NEEDED                | Daily Life Support                                      | Feature Suggestions   | 0            | 1         |
+| FS_HYDRATION_REMINDERS                 | Daily Life Support                                      | Feature Suggestions   | 0            | 1         |
+| FS_FAMILY_SUMMARY                      | Family & Collaboration                                  | Feature Suggestions   | 0            | 1         |
+| FS_CALLING_IMPROVEMENT_NEEDED          | General                                                 | Feature Suggestions   | 0            | 1         |
+| FS_APPOINTMENT_SHARING                 | General                                                 | Feature Suggestions   | 0            | 1         |
+| FS_SMART_HOME_INTEGRATION              | General                                                 | Feature Suggestions   | 0            | 1         |
+| FS_AUTOMATED_ALERTS                    | General                                                 | Feature Suggestions   | 0            | 1         |
+| FS_MAP_IMPROVEMENTS                    | General                                                 | Feature Suggestions   | 0            | 1         |
+| FS_MEDICAL_DATA_SHARING                | Health & Wellbeing                                      | Feature Suggestions   | 0            | 1         |
+| FS_HEALTHCARE_COORDINATION             | Health & Wellbeing                                      | Feature Suggestions   | 0            | 1         |
+| FS_HEALTH_MONITORING                   | Health & Wellbeing                                      | Feature Suggestions   | 0            | 1         |
+| FS_QUICK_MESSAGING                     | Interface & Usability                                   | Feature Suggestions   | 0            | 1         |
+| FS_HANDS_ON_GUIDANCE_NEEDED            | Interface & Usability                                   | Feature Suggestions   | 0            | 1         |
+| FS_QUICK_ACCESS_NEEDED                 | Interface & Usability                                   | Feature Suggestions   | 0            | 1         |
+| FS_ENHANCEMENT_NOT_CONTROL             | Privacy & Autonomy                                      | Feature Suggestions   | 0            | 1         |
+| FS_FALL_DETECTION                      | Safety & Emergency                                      | Feature Suggestions   | 0            | 1         |
+| AFI_CONTACT_SETUP_DIFFICULTY           | Error Prevention                                        | Areas for Improvement | 0            | 8         |
+| AFI_SAFEZONE_SETUP_DIFFICULTY          | Error Prevention                                        | Areas for Improvement | 0            | 3         |
+| AFI_REMOTE_CAREGIVING                  | Caregiving Context                                      | Areas for Improvement | 0            | 3         |
+| AFI_EMERGENCY_COMMUNICATION            | Voice & Communication                                   | Areas for Improvement | 0            | 3         |
+| AFI_REAL_TIME_MONITORING               | Visibility of System Status                             | Areas for Improvement | 0            | 2         |
+| AFI_DATA_PERSISTENCE_ISSUES            | Visibility of System Status                             | Areas for Improvement | 0            | 1         |
+| AFI_TIMESTAMP_VALUABLE                 | Visibility of System Status                             | Areas for Improvement | 0            | 1         |
+| AFI_FRAMING_STRATEGY                   | Match Between the System and the Real World             | Areas for Improvement | 0            | 1         |
+| AFI_VOLUNTARY_PARTICIPATION            | User Control and Freedom                                | Areas for Improvement | 0            | 1         |
+| AFI_CONNECT_SCREEN_CENTRAL             | Consistency and Standards                               | Areas for Improvement | 0            | 1         |
+| AFI_ROUTINE_UNDERSTANDING              | Recognition Rather than Recall                          | Areas for Improvement | 0            | 1         |
+| AFI_DAILY_LIFE_AWARENESS               | Recognition Rather than Recall                          | Areas for Improvement | 0            | 1         |
+| AFI_WORKFLOW_EFFICIENCY                | Flexibility and Efficiency of Use                       | Areas for Improvement | 0            | 1         |
+| AFI_TEACHER_WORKFLOW                   | Flexibility and Efficiency of Use                       | Areas for Improvement | 0            | 1         |
+| AFI_OVERWHELMING_CONCERN               | Aesthetic and Minimalist Design                         | Areas for Improvement | 0            | 1         |
+| AFI_FEATURE_FOCUS_MISMATCH             | Aesthetic and Minimalist Design                         | Areas for Improvement | 0            | 1         |
+| AFI_SAVE_BUTTON_ISSUES                 | Help Users Recognize, Diagnose, and Recover from Errors | Areas for Improvement | 0            | 1         |
+| AFI_UNCERTAINTY_ISSUES                 | Help Users Recognize, Diagnose, and Recover from Errors | Areas for Improvement | 0            | 1         |
+| AFI_GUIDANCE_GAP                       | Help and Documentation                                  | Areas for Improvement | 0            | 1         |
+| AFI_ROLE_SPECIFIC_TUTORIALS            | Help and Documentation                                  | Areas for Improvement | 0            | 1         |
+| AFI_MARKETING_VS_GUIDANCE              | Help and Documentation                                  | Areas for Improvement | 0            | 1         |
+| AFI_INTRO_SLIDES_CONCEPTUAL            | Help and Documentation                                  | Areas for Improvement | 0            | 1         |
+| AFI_HEARING_ACCOMMODATIONS             | Technology & Learning                                   | Areas for Improvement | 0            | 1         |
+| AFI_TRUST_ISSUES                       | Trust & Reliability                                     | Areas for Improvement | 0            | 1         |
+| AFI_RESPECTFUL_TECHNOLOGY              | Design Philosophy                                       | Areas for Improvement | 0            | 1         |
+| AFI_RESPECTFUL_USE                     | Design Philosophy                                       | Areas for Improvement | 0            | 1         |
+| AFI_FAMILY_DYNAMICS_COMPLEX            | Caregiving Context                                      | Areas for Improvement | 0            | 1         |
+| AFI_DISTANCE_CAREGIVING_TRANSFORMATION | Caregiving Context                                      | Areas for Improvement | 0            | 1         |
+| AFI_INTERGENERATIONAL_CONCERNS         | Caregiving Context                                      | Areas for Improvement | 0            | 1         |
+| AFI_SAFEZONE_VISUALIZATION             | Interface & Usability                                   | Areas for Improvement | 0            | 1         |
+| AFI_SELF_DISCOVERY_CHALLENGES          | Interface & Usability                                   | Areas for Improvement | 0            | 1         |
+| AFI_CAREGIVER_SPECIFIC_FEATURES        | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_STRESS_CONTEXT_DESIGN              | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_DEMENTIA_CARE_ESSENTIAL            | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_COMPREHENSIVE_CARE_TOOLS           | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_MUTUAL_BENEFIT_PRINCIPLE           | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_SHARED_SPACE_CONNECTION            | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_CORE_CAREGIVER_NEEDS               | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_CONCEPT_VALIDATION                 | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_CAREGIVER_UNDERSTANDING            | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_INITIAL_SLIDES_INSPIRING           | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_PRESSURE_RELIEF                    | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_CAREGIVING_ESSENCE                 | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_CRITICAL_FEATURES                  | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_WORK_PEACE_OF_MIND                 | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_MUTUAL_AWARENESS                   | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_COMPREHENSIVE_SOLUTION             | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_DESIGN_EMPATHY                     | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_SETTING_UNCERTAINTY                | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_EMOTIONAL_INVESTMENT_IMPORTANT     | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_BIGGEST_FEAR_ADDRESSED             | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_TARGET_AUDIENCE_RECOGNITION        | General                                                 | Areas for Improvement | 0            | 1         |
+| AFI_MEDICAL_INFO_STORAGE               | Health & Wellbeing                                      | Areas for Improvement | 0            | 1         |
+| AFI_MEDICATION_VERIFICATION            | Health & Wellbeing                                      | Areas for Improvement | 0            | 1         |
+| AFI_STREAMLINED_COMMUNICATION          | Voice & Communication                                   | Areas for Improvement | 0            | 1         |
+
+## Subcategory Frequency Summary
+
+| Category              | Subcategory                                             | Carereceiver | Caregiver |
+| --------------------- | ------------------------------------------------------- | ------------ | --------- |
+| Areas for Improvement | User Control and Freedom                                | 36           | 21        |
+| Positive Feedback     | Family & Collaboration                                  | 22           | 29        |
+| Positive Feedback     | Recognition Rather than Recall                          | 18           | 6         |
+| Areas for Improvement | Aesthetic and Minimalist Design                         | 14           | 11        |
+| Positive Feedback     | Help and Documentation                                  | 12           | 8         |
+| Areas for Improvement | Voice & Communication                                   | 12           | 5         |
+| Areas for Improvement | Error Prevention                                        | 11           | 11        |
+| Feature Suggestions   | Daily Life Support                                      | 8            | 10        |
+| Areas for Improvement | Interface & Usability                                   | 8            | 9         |
+| Positive Feedback     | General Support                                         | 7            | 28        |
+| Feature Suggestions   | General                                                 | 7            | 19        |
+| Areas for Improvement | Help Users Recognize, Diagnose, and Recover from Errors | 7            | 2         |
+| Feature Suggestions   | Learning & Guidance                                     | 6            | 6         |
+| Feature Suggestions   | Customization & Control                                 | 6            | 1         |
+| Feature Suggestions   | Health & Wellbeing                                      | 5            | 8         |
+| Feature Suggestions   | Safety & Emergency                                      | 4            | 6         |
+| Feature Suggestions   | Family & Collaboration                                  | 3            | 2         |
+| Areas for Improvement | General                                                 | 2            | 21        |
+| Positive Feedback     | Visibility of System Status                             | 2            | 13        |
+| Feature Suggestions   | Voice & Communication                                   | 2            | 3         |
+| Areas for Improvement | Safety & Emergency                                      | 2            | 3         |
+| Feature Suggestions   | Caregiving & Monitoring                                 | 1            | 7         |
+| Areas for Improvement | Design Philosophy                                       | 1            | 5         |
+| Feature Suggestions   | Interface & Usability                                   | 1            | 4         |
+| Areas for Improvement | Flexibility and Efficiency of Use                       | 1            | 2         |
+| Areas for Improvement | Recognition Rather than Recall                          | 1            | 2         |
+| Areas for Improvement | Trust & Reliability                                     | 1            | 2         |
+| Positive Feedback     | Voice & Communication                                   | 1            | 1         |
+| Areas for Improvement | Match Between the System and the Real World             | 1            | 1         |
+| Areas for Improvement | Technology & Learning                                   | 1            | 1         |
+| Positive Feedback     | Daily Life Support                                      | 1            | 0         |
+| Positive Feedback     | Safety & Emergency                                      | 0            | 9         |
+| Positive Feedback     | Caregiving & Monitoring                                 | 0            | 6         |
+| Areas for Improvement | Caregiving Context                                      | 0            | 6         |
+| Positive Feedback     | Flexibility and Efficiency of Use                       | 0            | 4         |
+| Positive Feedback     | User Control and Freedom                                | 0            | 4         |
+| Areas for Improvement | Help and Documentation                                  | 0            | 4         |
+| Areas for Improvement | Visibility of System Status                             | 0            | 4         |
+| Positive Feedback     | Consistency and Standards                               | 0            | 3         |
+| Positive Feedback     | Aesthetic and Minimalist Design                         | 0            | 2         |
+| Positive Feedback     | Error Prevention                                        | 0            | 2         |
+| Positive Feedback     | Match Between the System and the Real World             | 0            | 2         |
+| Areas for Improvement | Health & Wellbeing                                      | 0            | 2         |
+| Positive Feedback     | Health & Wellbeing                                      | 0            | 1         |
+| Feature Suggestions   | Privacy & Autonomy                                      | 0            | 1         |
+| Areas for Improvement | Consistency and Standards                               | 0            | 1         |
 
 ## Codes and Supporting Quotes
 
@@ -358,7 +584,7 @@ This document contains three main sections. You can jump to each section using t
 | Mrs. Chang    | Caregiver    | I wish there was a family version that could connect multiple caregivers! For example, Ms. Chang (his daughter) and I both care for Mr. Chang.                                                                                                                                                      | FS_MULTIPLE_CAREGIVERS                | PF_COLLABORATION_FEELING               |                                      |
 | Mrs. Chang    | Caregiver    | It would be wonderful if we could both get the notifications about his medication and both be able to leave him notes.                                                                                                                                                                              | FS_MULTIPLE_CAREGIVERS                |                                        |                                      |
 | Mrs. Chang    | Caregiver    | Also, having his doctor or healthcare team be able to see his medication compliance data would be incredibly valuable for his care.                                                                                                                                                                 | FS_HEALTHCARE_INTEGRATION             | FS_MEDICAL_COORDINATION                |                                      |
-| Mrs. Chang    | Caregiver    | If yes - this app is wonderful. If it's just family wanting to "stay connected" - regular phone calls and family group chats work better and feel less invasive.                                                                                                                                    | PF_APPROPRIATE_USE_CASES              | AFI_GENUINE_CAREGIVING_NEED            |                                      |
+| Mrs. Chang    | Caregiver    | If yes - this app is wonderful. If it's just family wanting to "stay connected" - regular phone calls and family group chats work better and feel less invasive.                                                                                                                                    | PF_APPROPRIATE_USE_CASES              |                                        |                                      |
 | Mrs. Chang    | Caregiver    | It's really about using technology to enhance care and safety, not to control or spy on people.                                                                                                                                                                                                     | FS_ENHANCEMENT_NOT_CONTROL            | AFI_RESPECTFUL_TECHNOLOGY              |                                      |
 | Mrs. Chang    | Caregiver    | I'd love an emergency button that Mr. Chang could press if he falls or feels unwell. Sometimes when people have memory issues, they might not remember how to call for help, but a big red button in the app would be simple.                                                                       | FS_EMERGENCY_FEATURES                 | FS_ACCESSIBILITY                       |                                      |
 | Mrs. Chang    | Caregiver    | The biggest thing I wish for is connecting multiple family members... We're both caring for him!                                                                                                                                                                                                    | FS_MULTIPLE_CAREGIVERS                | PF_COLLABORATION_FEELING               |                                      |
@@ -448,176 +674,3 @@ This document contains three main sections. You can jump to each section using t
 | Ally          | Caregiver    | The Connect screen really captures the essence of what caregiving should be - staying connected while respecting independence.                                                                                                                                                                      | AFI_CAREGIVING_ESSENCE                | AFI_PRIVACY_AUTONOMY_CONTROL           |                                      |
 | Ally          | Caregiver    | It gives me all the information I need to support Mom without making her feel like she's being constantly monitored. That balance is so hard to achieve, and this app really gets it right.                                                                                                         | AFI_PRIVACY_AUTONOMY_CONTROL          | PF_CAREGIVER_SUPPORT                   |                                      |
 | Ally          | Caregiver    | It's transformed how I think about caring for Mom from a distance. Instead of constant worry, I have confidence and connection.                                                                                                                                                                     | PF_WORRY_TO_CONFIDENCE                | AFI_DISTANCE_CAREGIVING_TRANSFORMATION |                                      |
-
-## Code Frequency Statistics
-
-| Code                                   | Carereceiver | Caregiver |
-| -------------------------------------- | ------------ | --------- |
-| AFI_PRIVACY_AUTONOMY_CONTROL           | 35           | 20        |
-| PF_COLLABORATION_FEELING               | 12           | 21        |
-| PF_CAREGIVER_SUPPORT                   | 1            | 23        |
-| AFI_UI_COMPLEXITY_AND_NAVIGATION       | 14           | 9         |
-| PF_TUTORIAL_HELPFUL                    | 12           | 8         |
-| PF_SHARED_NOTES_USEFUL                 | 10           | 6         |
-| PF_MEMORY_SUPPORT                      | 11           | 5         |
-| FS_ACCESSIBILITY                       | 6            | 9         |
-| AFI_VISUAL_FEEDBACK_AND_AID            | 6            | 7         |
-| AFI_VOICE_INTERACTION                  | 10           | 1         |
-| AFI_TIME_PICKER_DIFFICULTY             | 11           | 0         |
-| FS_TUTORIAL_IMPROVEMENT                | 6            | 4         |
-| PF_LOCATION_SAFETY                     | 0            | 9         |
-| FS_EMERGENCY_FEATURES                  | 4            | 5         |
-| AFI_CONTACT_SETUP_DIFFICULTY           | 0            | 8         |
-| PF_ACTIVITY_LOGS_USEFUL                | 2            | 5         |
-| AFI_TASK_COMPLETION_DIFFICULTY         | 7            | 0         |
-| PF_NOTIFICATION_SUCCESS                | 0            | 6         |
-| FS_MEDICATION_TRACKING                 | 4            | 1         |
-| AFI_DIGNITY_PRESERVATION               | 1            | 3         |
-| AFI_SAFETY_FEATURES                    | 1            | 3         |
-| FS_VOICE_MESSAGE_AND_NOTES             | 1            | 3         |
-| FS_MULTIMEDIA_NOTES                    | 3            | 1         |
-| PF_COGNITIVE_LOAD_REDUCTION            | 4            | 0         |
-| PF_BALANCED_MONITORING                 | 0            | 3         |
-| PF_COMPREHENSIVE_TRACKING              | 0            | 3         |
-| AFI_REMOTE_CAREGIVING                  | 0            | 3         |
-| AFI_SAFEZONE_SETUP_DIFFICULTY          | 0            | 3         |
-| AFI_EMERGENCY_COMMUNICATION            | 0            | 3         |
-| FS_DAILY_COORDINATION                  | 0            | 3         |
-| FS_MULTIPLE_CAREGIVERS                 | 0            | 3         |
-| PF_ACCESSIBILITY                       | 1            | 2         |
-| PF_COGNITIVE_SUPPORT                   | 2            | 1         |
-| FS_SELECTIVE_SHARING                   | 3            | 0         |
-| FS_SIMPLE_REMINDERS                    | 3            | 0         |
-| PF_REAL_TIME_MONITORING                | 0            | 2         |
-| PF_BALANCED_CAREGIVING                 | 0            | 2         |
-| PF_CONNECT_LAYOUT_GOOD                 | 0            | 2         |
-| PF_WORK_LIFE_BALANCE                   | 0            | 2         |
-| PF_APPROPRIATE_RADIUS                  | 0            | 2         |
-| AFI_REAL_TIME_MONITORING               | 0            | 2         |
-| FS_ROUTINE_TRACKING                    | 0            | 2         |
-| FS_APPOINTMENT                         | 0            | 2         |
-| FS_HEALTHCARE_INTEGRATION              | 0            | 2         |
-| FS_MEDICAL_COORDINATION                | 0            | 2         |
-| FS_CAREGIVER_TUTORIALS_NEEDED          | 0            | 2         |
-| AFI_RELIABILITY_CONCERNS               | 1            | 1         |
-| FS_GENTLE_MONITORING                   | 1            | 1         |
-| FS_ROUTINE_TEMPLATES                   | 1            | 1         |
-| FS_ROUTINE_DEVIATION_DETECTION         | 1            | 1         |
-| FS_MEDICATION_VISUAL_AID               | 1            | 1         |
-| PF_EMOTIONAL_SUPPORT                   | 2            | 0         |
-| AFI_EXISTING_COMMUNICATION_SUFFICIENT  | 2            | 0         |
-| FS_SELECTIVE_FEATURE_USE               | 2            | 0         |
-| PF_FAMILY_CAREGIVING_BALANCE           | 0            | 1         |
-| PF_FAMILY_NETWORK_BENEFITS             | 0            | 1         |
-| PF_FEATURE_BALANCE                     | 0            | 1         |
-| PF_APPROPRIATE_USE_CASES               | 0            | 1         |
-| PF_SYSTEM_INTEGRATION                  | 0            | 1         |
-| PF_SIMPLICITY_COMPLEXITY_BALANCE       | 0            | 1         |
-| PF_WORRY_TO_CONFIDENCE                 | 0            | 1         |
-| PF_FAMILIAR_METAPHOR                   | 0            | 1         |
-| PF_MOBILE_REASSURANCE                  | 0            | 1         |
-| PF_DEMENTIA_SUPPORT                    | 0            | 1         |
-| PF_ORGANIZATION_EFFECTIVE              | 0            | 1         |
-| PF_BALANCED_INVOLVEMENT                | 0            | 1         |
-| PF_HEALTH_CONDITION_SUPPORT            | 0            | 1         |
-| PF_UI_WORKFLOW_UNCLEAR                 | 0            | 1         |
-| PF_INDEPENDENCE_SAFETY_BALANCE         | 0            | 1         |
-| PF_COMMUNICATION_BALANCE               | 0            | 1         |
-| AFI_ROUTINE_UNDERSTANDING              | 0            | 1         |
-| AFI_DAILY_LIFE_AWARENESS               | 0            | 1         |
-| AFI_FAMILY_DYNAMICS_COMPLEX            | 0            | 1         |
-| AFI_FRAMING_STRATEGY                   | 0            | 1         |
-| AFI_CAREGIVER_SPECIFIC_FEATURES        | 0            | 1         |
-| AFI_CONNECT_SCREEN_CENTRAL             | 0            | 1         |
-| AFI_INTRO_SLIDES_CONCEPTUAL            | 0            | 1         |
-| AFI_STRESS_CONTEXT_DESIGN              | 0            | 1         |
-| AFI_DEMENTIA_CARE_ESSENTIAL            | 0            | 1         |
-| AFI_COMPREHENSIVE_CARE_TOOLS           | 0            | 1         |
-| AFI_MUTUAL_BENEFIT_PRINCIPLE           | 0            | 1         |
-| AFI_SHARED_SPACE_CONNECTION            | 0            | 1         |
-| AFI_CORE_CAREGIVER_NEEDS               | 0            | 1         |
-| AFI_CONCEPT_VALIDATION                 | 0            | 1         |
-| AFI_CAREGIVER_UNDERSTANDING            | 0            | 1         |
-| AFI_INITIAL_SLIDES_INSPIRING           | 0            | 1         |
-| AFI_OVERWHELMING_CONCERN               | 0            | 1         |
-| AFI_PRESSURE_RELIEF                    | 0            | 1         |
-| AFI_CAREGIVING_ESSENCE                 | 0            | 1         |
-| AFI_UNCERTAINTY_ISSUES                 | 0            | 1         |
-| AFI_RESPECTFUL_USE                     | 0            | 1         |
-| AFI_CRITICAL_FEATURES                  | 0            | 1         |
-| AFI_SELF_DISCOVERY_CHALLENGES          | 0            | 1         |
-| AFI_FEATURE_FOCUS_MISMATCH             | 0            | 1         |
-| AFI_RESPECTFUL_TECHNOLOGY              | 0            | 1         |
-| AFI_WORK_PEACE_OF_MIND                 | 0            | 1         |
-| AFI_INTERGENERATIONAL_CONCERNS         | 0            | 1         |
-| AFI_VOLUNTARY_PARTICIPATION            | 0            | 1         |
-| AFI_TIMESTAMP_VALUABLE                 | 0            | 1         |
-| AFI_MUTUAL_AWARENESS                   | 0            | 1         |
-| AFI_COMPREHENSIVE_SOLUTION             | 0            | 1         |
-| AFI_DESIGN_EMPATHY                     | 0            | 1         |
-| AFI_SETTING_UNCERTAINTY                | 0            | 1         |
-| AFI_EMOTIONAL_INVESTMENT_IMPORTANT     | 0            | 1         |
-| AFI_BIGGEST_FEAR_ADDRESSED             | 0            | 1         |
-| AFI_DISTANCE_CAREGIVING_TRANSFORMATION | 0            | 1         |
-| AFI_DATA_PERSISTENCE_ISSUES            | 0            | 1         |
-| AFI_TRUST_ISSUES                       | 0            | 1         |
-| AFI_HEARING_ACCOMMODATIONS             | 0            | 1         |
-| AFI_TARGET_AUDIENCE_RECOGNITION        | 0            | 1         |
-| AFI_MEDICAL_INFO_STORAGE               | 0            | 1         |
-| AFI_MEDICATION_VERIFICATION            | 0            | 1         |
-| AFI_SAFEZONE_VISUALIZATION             | 0            | 1         |
-| AFI_SAVE_BUTTON_ISSUES                 | 0            | 1         |
-| AFI_GUIDANCE_GAP                       | 0            | 1         |
-| AFI_MARKETING_VS_GUIDANCE              | 0            | 1         |
-| AFI_GENUINE_CAREGIVING_NEED            | 0            | 1         |
-| AFI_TEACHER_WORKFLOW                   | 0            | 1         |
-| AFI_WORKFLOW_EFFICIENCY                | 0            | 1         |
-| AFI_ROLE_SPECIFIC_TUTORIALS            | 0            | 1         |
-| AFI_STREAMLINED_COMMUNICATION          | 0            | 1         |
-| FS_MEAL_TRACKING_NEEDED                | 0            | 1         |
-| FS_MOVEMENT_PATTERNS                   | 0            | 1         |
-| FS_PATTERN_RECOGNITION                 | 0            | 1         |
-| FS_WELLBEING_MONITORING                | 0            | 1         |
-| FS_WELLNESS_MONITORING                 | 0            | 1         |
-| FS_PASSIVE_MONITORING                  | 0            | 1         |
-| FS_CUSTOMIZABLE_ALERTS                 | 0            | 1         |
-| FS_SHARED_CALENDAR                     | 0            | 1         |
-| FS_DAILY_CHECKIN_NEEDED                | 0            | 1         |
-| FS_HYDRATION_REMINDERS                 | 0            | 1         |
-| FS_FAMILY_SUMMARY                      | 0            | 1         |
-| FS_CALLING_IMPROVEMENT_NEEDED          | 0            | 1         |
-| FS_APPOINTMENT_SHARING                 | 0            | 1         |
-| FS_SMART_HOME_INTEGRATION              | 0            | 1         |
-| FS_AUTOMATED_ALERTS                    | 0            | 1         |
-| FS_MAP_IMPROVEMENTS                    | 0            | 1         |
-| FS_MEDICAL_DATA_SHARING                | 0            | 1         |
-| FS_HEALTHCARE_COORDINATION             | 0            | 1         |
-| FS_HEALTH_MONITORING                   | 0            | 1         |
-| FS_QUICK_MESSAGING                     | 0            | 1         |
-| FS_HANDS_ON_GUIDANCE_NEEDED            | 0            | 1         |
-| FS_QUICK_ACCESS_NEEDED                 | 0            | 1         |
-| FS_ENHANCEMENT_NOT_CONTROL             | 0            | 1         |
-| FS_FALL_DETECTION                      | 0            | 1         |
-| PF_POSITIVE_REMINDERS                  | 1            | 0         |
-| PF_BURDEN_REDUCTION                    | 1            | 0         |
-| PF_TRUSTED_CAREGIVER_RELATIONSHIP      | 1            | 0         |
-| PF_ANXIETY_REDUCTION                   | 1            | 0         |
-| PF_CLEAR_TASK_DISPLAY                  | 1            | 0         |
-| PF_CONTACT_ACCESS                      | 1            | 0         |
-| AFI_PROGRESSIVE_FEATURES               | 1            | 0         |
-| AFI_TECHNOLOGY_LEARNING_CURVE          | 1            | 0         |
-| AFI_TASK_ABANDONMENT                   | 1            | 0         |
-| AFI_SOCIAL_CONNECTION                  | 1            | 0         |
-| AFI_CONTEXTUAL_CALLING                 | 1            | 0         |
-| AFI_UNIFIED_VIEW                       | 1            | 0         |
-| AFI_ACCESSIBILITY_AND_COGNITIVE_LOAD   | 1            | 0         |
-| AFI_BUTTON_DISCOVERABILITY             | 1            | 0         |
-| AFI_QUICK_CAPTURE                      | 1            | 0         |
-| AFI_SAFETY_CONSIDERATION               | 1            | 0         |
-| FS_STAGE_APPROPRIATE_FEATURES          | 1            | 0         |
-| FS_CALENDAR_REMINDERS                  | 1            | 0         |
-| FS_LOCATION_BASED_REMINDERS            | 1            | 0         |
-| FS_CALENDAR_INTEGRATION                | 1            | 0         |
-| FS_SMART_FEATURES_NEEDED               | 1            | 0         |
-| FS_MOOD_TRACKING                       | 1            | 0         |
-| FS_INTEGRATED_COMMUNICATION            | 1            | 0         |
